@@ -28,6 +28,7 @@ public:
             int row = q.front().first.first;
             int col = q.front().first.second;
             int time = q.front().second;
+            maxt = max(time,maxt);
             q.pop();
             for(int i=0;i<4;i++ ){
                 int nrow = row+delrow[i];
@@ -40,7 +41,6 @@ public:
                         grid[nrow][ncol]=2;cnt++;
                     }
                 }
-                maxt = max(tm,maxt);
             }
         }
         for(int i=0;i<rows;i++){
