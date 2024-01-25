@@ -1,26 +1,54 @@
-class Solution {
-    vector<int> parent;
-    int find(int x){
-        return (parent[x]==x)?x:find(parent[x]);
-    }
+class DisjointSet{
 public:
-    int makeConnected(int n, vector<vector<int>>& connections) {
-        int c  = connections.size();
-        if(n-1>c) return -1;
-        parent.resize(n);
+    vector<int>parent,size;
+    DisjointSet(int n){
+        parent.resize(n+1);
+        size.resize(n+1);
         for(int i =0;i<n;i++){
             parent[i]=i;
+            size[i]=1;
         }
-        for(int i=0;i<c;i++ ){
-            int x = find(connections[i][0]);
-            int y = find(connections[i][1]);
-            if(x != y )parent[y]=x;
+    }
+    int findpar(int node){
+        if(node == parent[node])return node;
+        return findpar(parent[node]);
+    }
+    void unionbysize(int u, int v){
+        int uu = findpar(u);
+        int uv = findpar(v);
+        if(uu == uv)return;
+        if(size[uu]<size[uv]){
+            parent[uu] = uv;
+            size[uv]+=size[uu];
         }
+        else{
+            parent[uv] = uu;
+            size[uu]+=size[uv];
+        }
+    }
+};
+class Solution {
+public:
+    int makeConnected(int n, vector<vector<int>>& connections) {
+        DisjointSet ds(n);
         int cnt = 0;
-        for (int i = 0; i < n; i++) {
-            if (parent[i] == i)
+        for(auto it : connections){
+            int u = it[0];
+            int v= it[1];
+            if(ds.findpar(u)==ds.findpar(v)){
                 cnt++;
+            }
+            else{
+                ds.unionbysize(u,v);
+            }
         }
-        return cnt-1;
+        int cntC=0;
+        for (int i = 0; i < n; i++) {
+            if (ds.parent[i] == i)
+                cntC++;
+        }
+        int ans = cntC-1;
+        if(cnt>=ans)return ans;
+        return -1;
     }
 };
