@@ -11,7 +11,7 @@ public:
     }
     int findPar(int node){
         if(node == parent[node]) return node;
-        return parent[node]=findPar(parent[node]);
+        return findPar(parent[node]);
     }
     void unionbysize(int u, int v){
         int uu = findPar(u);
