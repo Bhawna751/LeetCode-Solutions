@@ -8,7 +8,7 @@ public:
             int take = nums[i];
             if (i > 1)
                 take += prev2;
-            int nottake = 0 + prev;
+            int nottake = prev;
             int cur_i = max(take, nottake);
             prev2 = prev;
             prev = cur_i;
