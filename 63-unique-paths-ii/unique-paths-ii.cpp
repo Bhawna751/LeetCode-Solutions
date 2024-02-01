@@ -1,24 +1,19 @@
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
-        if (obstacleGrid.empty() || obstacleGrid[0].empty() || obstacleGrid[0][0] == 1) {
-            return 0;
-        }
-        int m = obstacleGrid.size();
-        int n = obstacleGrid[0].size();
-        std::vector<int> previous(n, 0);
-        std::vector<int> current(n, 0);
-        previous[0] = 1;
-        
-        for (int i = 0; i < m; i++) {
-            current[0] = obstacleGrid[i][0] == 1 ? 0 : previous[0];
-            for (int j = 1; j < n; j++) {
-                current[j] = obstacleGrid[i][j] == 1 ? 0 : current[j-1] + previous[j];
-            }
-            previous = current;
-        }
-        
-        return previous[n-1];
+        vector<vector<int>> dp(2, vector<int>(obstacleGrid[0].size(), 0));
+        int curr = 0, pre = 1;
 
+        dp[pre][0] = -1;
+        for (int i = 0; i < obstacleGrid.size(); i++) {
+            dp[curr][0] = obstacleGrid[i][0] == 1 ? 0 : dp[pre][0];
+            for (int j = 1; j < obstacleGrid[i].size(); j++)
+                dp[curr][j] = obstacleGrid[i][j] == 1 ? 0 : dp[curr][j - 1] + dp[pre][j];
+            
+            curr = (curr + 1) % 2;
+            pre = (pre + 1) % 2;
+        }
+
+        return dp[pre][dp[pre].size() - 1] * -1;
     }
 };
