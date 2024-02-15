@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int f(int ind,int prevind,vector<int>& nums,int n,vector<vector<int>> &dp){
+    /*int f(int ind,int prevind,vector<int>& nums,int n,vector<vector<int>> &dp){
         if(ind==n)return 0;
         if(dp[ind][prevind+1]!=-1)return dp[ind][prevind+1];
         int len = 0+f(ind+1,prevind,nums,n,dp);//nottake
@@ -24,5 +24,22 @@ public:
             next=cur;
         }
         return next[-1+1];
+    }*/
+    int lengthOfLIS(vector<int>& nums) {
+        vector<int> temp;
+        int n=nums.size();
+        temp.push_back(nums[0]);
+        int len=1;
+        for(int i=1;i<n;i++){
+            if(nums[i]>temp.back()){
+                temp.push_back(nums[i]);
+                len++;
+            }
+            else{
+                int ind =abs( lower_bound(temp.begin(),temp.end(),nums[i])-temp.begin());
+                temp[ind] = nums[i];
+            }
+        }
+        return len;
     }
 };
