@@ -10,8 +10,8 @@
  */
 class Solution {
 public:
-    ListNode* reverselist(ListNode*head){
-        ListNode* prev=nullptr,*next=nullptr;
+    ListNode *reverse(ListNode *head){
+        ListNode*prev=nullptr,*next=nullptr;
         while(head!=nullptr){
             next=head->next;
             head->next=prev;
@@ -27,7 +27,7 @@ public:
             slow=slow->next;
             fast = fast->next->next;
         }
-        slow->next=reverselist(slow->next);
+        slow->next=reverse(slow->next);
         slow=slow->next;
         while(slow!=nullptr){
             if(head->val!=slow->val)return false;
