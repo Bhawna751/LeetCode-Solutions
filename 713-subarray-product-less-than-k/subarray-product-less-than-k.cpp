@@ -6,11 +6,11 @@ public:
         int first=0,prod=1,cnt=0;
         for(int i=0;i<n;i++){
             prod = prod*nums[i];
-            while(prod>=k && first<i){
+            while(prod>=k ){
                 prod = prod/nums[first];
                 first++;
             }
-            if(prod<k) cnt+= i-first+1;
+            cnt+= i-first+1;
         }
         return cnt;
     }
