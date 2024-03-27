@@ -6,7 +6,7 @@ public:
         int first=0,prod=1,cnt=0;
         for(int i=0;i<n;i++){
             prod = prod*nums[i];
-            while(prod>=k && first<n){
+            while(prod>=k && first<i){
                 prod = prod/nums[first];
                 first++;
             }
