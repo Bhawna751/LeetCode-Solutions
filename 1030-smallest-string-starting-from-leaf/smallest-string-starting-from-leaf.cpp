@@ -12,10 +12,9 @@
 class Solution {
 private:
     string smallest = "~";
-    string alphabet = "abcdefghijklmnopqrstuvwxyz";
     void solve(TreeNode *root,string path){
         if(!root)return;
-        path = alphabet[root->val] + path;
+        path = (char)('a'+root->val) + path;
         if(!root->left && !root->right){
             smallest = min(smallest,path);
         }
