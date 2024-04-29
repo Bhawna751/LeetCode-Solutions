@@ -8,9 +8,9 @@ public:
            // cout<<ans<<endl;//3 2 1 5
         }
         int cnt=0;
-        while(ans){//5
-            cnt += ans & 1;//
-            ans>>=1;
+        while(ans){//5-->2-->1
+            cnt += ans & 1;//1-->1-->1+1=2
+            ans>>=1;//2.5-->1-->0
         }
         return cnt;
     }
