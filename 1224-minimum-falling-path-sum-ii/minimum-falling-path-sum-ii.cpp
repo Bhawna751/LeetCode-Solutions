@@ -1,28 +1,24 @@
 class Solution {
 public:
+    int solve(int i,int j,vector<vector<int>>&grid,vector<vector<int>>&dp){
+        if(i==grid.size()-1 && j<grid[0].size() && j>=0) return grid[i][j];
+        if(j>=grid.size() || j<0) return 1e9;
+        if(dp[i][j]!=1e9)return dp[i][j];
+        int mini = 1e9;
+        for(int k=0;k<grid[0].size();k++){
+            if(k!=j){
+                mini = min(mini,solve(i+1,k,grid,dp));
+            }
+        }
+        return dp[i][j]=grid[i][j]+mini;
+    }
     int minFallingPathSum(vector<vector<int>>& grid) {
         int n=grid.size();
-        if(n==1)return grid[0][0];
-        int m=grid[0].size();
-        int sum1=0;
-        int col=-1,mini1=0;
-        for(auto i = 0;i<grid.size();i++ ){
-            auto mini2 = INT_MAX, sum2=INT_MAX, nextcol=-1;
-            for(auto j = 0;j<grid.size();j++ ){
-                auto smallest = j != col ? mini1 : sum1;
-                if(grid[i][j] + smallest < mini2){
-                    sum2 = mini2;
-                    mini2 = grid[i][j] + smallest;
-                    nextcol = j; 
-                }
-                else{
-                    sum2 = min(sum2,grid[i][j]+smallest);
-                }
-            }
-            mini1 = mini2;
-            sum1 = sum2;
-            col = nextcol;
+        vector<vector<int>> dp(n,vector<int>(n,1e9));
+        int mini = 1e9;
+        for(int i=0;i<n;i++){
+            mini = min(mini,solve(0,i,grid,dp));
         }
-        return mini1;
+        return mini;
     }
 };
