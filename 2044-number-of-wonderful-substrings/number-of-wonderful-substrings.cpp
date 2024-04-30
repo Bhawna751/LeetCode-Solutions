@@ -1,17 +1,21 @@
 class Solution {
 public:
     long long wonderfulSubstrings(string word) {
-        vector<int> cnt(1024);
-        long long ans =0,cur=0;
-        cnt[0]=1L;
-        for(char &c:word){
-            cur ^=1<<(c-'a');
-            ans += cnt[cur]++;
+        int n=word.length();
+        long long total=0, is_odd=0;
+        unordered_map<long long, int> mpp;
+        mpp[is_odd] +=1;
+        for(auto c:word){
+            int d = c - 'a';
+            is_odd = is_odd^(1<<d);
+            total += mpp[is_odd];
             for(int i=0;i<10;i++){
-                int search = cur^(1<<i);
-                ans+= cnt[search];
+                is_odd = is_odd^(1<<i);
+                total += mpp[is_odd];
+                is_odd = is_odd^(1<<i);
             }
+            mpp[is_odd]+=1;
         }
-        return ans;
+        return total;
     }
 };
