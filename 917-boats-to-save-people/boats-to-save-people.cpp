@@ -13,12 +13,13 @@ public:
         int boats = 0;
         while (low <= high) {
             if (people[low] + people[high] <= limit) {
+                boats++;
                 low++;
                 high--;
             } else {
+                boats++;
                 high--;
             }
-            boats++;
         }
         return boats;
     }
