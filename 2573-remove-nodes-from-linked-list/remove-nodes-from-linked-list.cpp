@@ -10,49 +10,31 @@
  */
 class Solution {
 public:
+ListNode* reverseList(ListNode* head) {
+        if(head==nullptr || head->next==nullptr) return head;
+        ListNode *last=reverseList(head->next);
+        head->next->next = head;
+        head->next = nullptr;
+        return last;
+    }
     ListNode* removeNodes(ListNode* head) {
-        vector<int> ind;
-        ListNode *temp=head,*temp1=head;
-        while(temp!=nullptr){
-            ind.push_back(temp->val);
-            temp=temp->next;
-        }
-        temp=head;
-        int n= ind.size();
-        stack<int> st;
-        vector<int> nextGreater;
-
-        for(int i=n-1;i>=0;i--){
-            while(!st.empty() && ind[st.top()]<=ind[i]) st.pop();
-            if(st.empty()) nextGreater.push_back(-1);
-            else nextGreater.push_back(st.top());
-            st.push(i);
-        }
-
-        reverse(nextGreater.begin(),nextGreater.end());
-        set<int>s;
-        for(int i=0;i<nextGreater.size();i++){
-            if(nextGreater[i]!=-1) s.insert(i);
-        }
-        int i=0;
-        ListNode *prev = nullptr;
-        while(temp){
-            if(s.find(i)!=s.end()){
-                if(temp==temp1){
-                    temp=temp->next;
-                    temp1=temp1->next;
-                }
-                else{
-                    prev->next = temp->next;
-                    temp=temp->next;
-                }
+        if(head==nullptr)return head;
+        ListNode* newHead = reverseList(head);
+        int maxi = newHead->val;
+        ListNode *p = newHead,*q = newHead->next,*r;
+        while(q!=nullptr){
+            r=q->next;
+            if(q->val < maxi){
+                p->next = r;
+                q=r;
             }
             else{
-                prev= temp;
-                temp=temp->next;
+                maxi = q->val;
+                p=q;
+                q=r;
             }
-            i++;
         }
-        return temp1;
+        newHead = reverseList(newHead);
+        return newHead;
     }
 };
