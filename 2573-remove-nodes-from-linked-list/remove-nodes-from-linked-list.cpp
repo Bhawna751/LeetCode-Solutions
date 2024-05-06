@@ -10,31 +10,11 @@
  */
 class Solution {
 public:
-ListNode* reverseList(ListNode* head) {
-        if(head==nullptr || head->next==nullptr) return head;
-        ListNode *last=reverseList(head->next);
-        head->next->next = head;
-        head->next = nullptr;
-        return last;
-    }
     ListNode* removeNodes(ListNode* head) {
         if(head==nullptr)return head;
-        ListNode* newHead = reverseList(head);
-        int maxi = newHead->val;
-        ListNode *p = newHead,*q = newHead->next,*r;
-        while(q!=nullptr){
-            r=q->next;
-            if(q->val < maxi){
-                p->next = r;
-                q=r;
-            }
-            else{
-                maxi = q->val;
-                p=q;
-                q=r;
-            }
-        }
-        newHead = reverseList(newHead);
-        return newHead;
+        head->next = removeNodes(head->next);
+        if(head->next==nullptr) return head;
+        if(head->next->val > head->val)return head->next;
+        return head;
     }
 };
