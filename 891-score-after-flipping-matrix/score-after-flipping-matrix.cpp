@@ -4,20 +4,24 @@ public:
         int n=grid.size(),m=grid[0].size();
         for(int i=0;i<n;i++){
             if(grid[i][0]==0){
-                for(int j=0;j<m;j++){
-                    grid[i][j]= grid[i][j]== 0 ? 1:0;
-                }
+                for(int j=0;j<m;j++) grid[i][j]=1-grid[i][j];
             }
-            else continue;
+        }
+        for(int j=1;j<m;j++){
+            int cnt0 =0;
+            for(int i=0;i<n;i++){
+                if(grid[i][j]==0)cnt0++;
+            }
+            if(cnt0 > n-cnt0){
+                for(int i=0;i<n;i++) grid[i][j] = 1-grid[i][j];
+            }
         }
         int sum=0;
-        for(int j=0;j<m;j++){
-            int cnt0=0,cnt1=0;
-            for(int i=0;i<n;i++){
-                if(grid[i][j]==1)cnt1++;
-                else cnt0++;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                int colsum = grid[i][j] << (m-j-1);
+                sum += colsum;
             }
-            sum += pow(2, m-j-1) * max(cnt0,cnt1);
         }
         return sum;
     }
