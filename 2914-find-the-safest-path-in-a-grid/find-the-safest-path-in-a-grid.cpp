@@ -1,11 +1,5 @@
 class Solution {
 public:
-    /*
-    0    1    2
-    1    2    1
-    2    3    0        pos->(2,1)
-    */
-
     vector<vector<int>> dir = {{0,1},{0,-1},{1,0},{-1,0}};
     bool isValidCell(vector<vector<int>>& grid,int row, int col){
         int n = grid.size();
@@ -50,17 +44,17 @@ public:
             }
         }
         while(!pos.empty()){
-            int size = pos.size();//1
-            while(size-- > 0){//1
-                auto cur = pos.front();//2,0
+            int size = pos.size();
+            while(size-- > 0){
+                auto cur = pos.front();
                 pos.pop();
                 for(auto& it:dir){
-                    int drow = cur.first + it[0];//2
-                    int dcol = cur.second + it[1];//1
-                    int val = grid[cur.first][cur.second];//2
+                    int drow = cur.first + it[0];
+                    int dcol = cur.second + it[1];
+                    int val = grid[cur.first][cur.second];
                     if(isValidCell(grid,drow,dcol) && grid[drow][dcol] == -1){
-                        grid[drow][dcol] = val + 1;//3
-                        pos.push({drow,dcol});//
+                        grid[drow][dcol] = val + 1;
+                        pos.push({drow,dcol});
                     } 
                 }
             }
@@ -68,17 +62,17 @@ public:
         int start=0,end =0,ans=-1;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                end = max(end,grid[i][j]);//3
+                end = max(end,grid[i][j]);
             }
         }
-        while(start<=end){//0<=3
-            int mid = start + (end-start)/2;//mid =1
+        while(start<=end){
+            int mid = start + (end-start)/2;
             if(isSafe(grid,mid)){
                 ans=mid;
                 start=mid+1;
             }
             else{
-                end = mid-1;//0
+                end = mid-1;
             }
         }
         return ans;
