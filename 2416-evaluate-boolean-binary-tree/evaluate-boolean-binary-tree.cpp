@@ -12,16 +12,30 @@
 class Solution {
 public:
     bool evaluateTree(TreeNode* root) {
-        if(root->left == nullptr && root->right==nullptr) return root->val;
-        bool leftsub = evaluateTree(root->left);
-        bool rightsub = evaluateTree(root->right);
-        bool newroot;
-        if(root->val == 2){
-            newroot = leftsub | rightsub;
+        stack<TreeNode*> st;
+        st.push(root);
+        unordered_map<TreeNode*, bool> mpp;
+        while(!st.empty()){
+            TreeNode* top = st.top();
+            if(!top->left && !top->right){
+                st.pop();
+                mpp[top] = top->val;
+                continue;
+            }
+            if(mpp.find(top->left) != mpp.end() && mpp.find(top->right) != mpp.end()){
+                st.pop();
+                if(top->val == 2){
+                    mpp[top] = mpp[top->left] || mpp[top->right];
+                }
+                else{
+                    mpp[top] = mpp[top->left] && mpp[top->right];
+                }
+            }
+            else{
+                st.push(top->right);
+                st.push(top->left);
+            }
         }
-        else{
-            newroot = leftsub & rightsub;
-        }
-        return newroot;
+        return mpp[root] ==1;
     }
 };
