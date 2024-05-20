@@ -1,27 +1,12 @@
 class Solution {
 public:
-    void generate(vector<int>& nums,int ind,vector<int> subset,vector<vector<int>> &subsets){
-        if(ind == nums.size()){
-            subsets.push_back(subset);
-            return;
-        }
-        subset.push_back(nums[ind]);
-        generate(nums,ind+1,subset,subsets);
-        subset.pop_back();
-        generate(nums,ind+1,subset,subsets);
+    int sum(vector<int>& nums,int ind,int cur){
+        if(ind==nums.size()) return cur;
+        int withele = sum (nums,ind+1,cur^nums[ind]);
+        int without = sum(nums,ind+1,cur);
+        return withele + without;
     }
     int subsetXORSum(vector<int>& nums) {
-        int n=nums.size();
-        vector<vector<int>> subsets;
-        generate(nums,0,{},subsets);
-        int ans=0;
-        for(auto &it:subsets){
-           int xort = 0;
-           for(int num:it){
-                xort = xort^num;
-           }
-           ans += xort;
-        }
-        return ans;
+        return sum(nums,0,0);
     }
 };
