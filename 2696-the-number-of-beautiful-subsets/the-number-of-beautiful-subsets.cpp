@@ -18,7 +18,6 @@ public:
     int beautifulSubsets(vector<int>& nums, int k) {
         vector<int>subset;
         int n=nums.size();
-        int ans=generate(nums,0,k,0);
-        return ans;
+        return generate(nums,0,k,0);
     }
 };
