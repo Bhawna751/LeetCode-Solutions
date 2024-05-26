@@ -14,7 +14,7 @@ public:
         for(int day=1;day<=n;day++){
             for(int a=0;a<=1;a++){
                 for(int l=0;l<=2;l++){
-                    dp[day][a][l] = dp[day-1][a][0]%mod;
+                    dp[day][a][l] = dp[day-1][a][0];
                     dp[day][a][l] = (dp[day][a][l] + dp[day-1][a+1][0])%mod;
                     dp[day][a][l] = (dp[day][a][l] + dp[day-1][a][l+1]) % mod;
                 }
