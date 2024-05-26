@@ -3,23 +3,24 @@
 
 class Solution {
 public:
-    ll dp[100001][3][4];
     int checkRecord(int n) {
-        memset(dp,0,sizeof(dp));
+        vector<vector<ll>> dp(3, vector<ll> (4));
         for(int a=0;a<=1;a++){
             for(int l=0;l<=2;l++){
-                dp[0][a][l]=1;
+                dp[a][l]=1;
             }
         }
         for(int day=1;day<=n;day++){
+            vector<vector<ll>> next(3, vector<ll>(4));
             for(int a=0;a<=1;a++){
                 for(int l=0;l<=2;l++){
-                    dp[day][a][l] = dp[day-1][a][0]%mod;
-                    dp[day][a][l] = (dp[day][a][l] + dp[day-1][a+1][0])%mod;
-                    dp[day][a][l] = (dp[day][a][l] + dp[day-1][a][l+1]) % mod;
+                    next[a][l] = dp[a][0]%mod;
+                    next[a][l] = (next[a][l] + dp[a+1][0])%mod;
+                    next[a][l] = (next[a][l] + dp[a][l+1]) % mod;
                 }
-            }    
+            }
+            dp = next;
         }
-        return dp[n][0][0];
+        return dp[0][0];
     }
 };
