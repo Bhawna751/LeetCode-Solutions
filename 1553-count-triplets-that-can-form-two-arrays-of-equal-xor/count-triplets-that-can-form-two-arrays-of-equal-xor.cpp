@@ -5,14 +5,10 @@ public:
         int cnt=0;
 
         for(int i=0;i<n-1;i++){
-            int a=0;
-            for(int j=i+1;j<n;j++){
-                a ^= arr[j-1];
-                int b=0;
-                for(int k=j;k<n;k++){
-                    b ^=arr[k];
-                    if(a==b) cnt++;
-                }
+            int curxor=arr[i];
+            for(int k=i+1;k<n;k++){
+                curxor ^= arr[k];
+                if(curxor == 0) cnt += k-i;
             }
         }
 
