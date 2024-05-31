@@ -7,7 +7,7 @@ public:
             for(int i:nums){
                 if(i & mask) cnt += 1;
             }
-            if((cnt%3) != 0) ans += mask;
+            if((cnt%3) != 0) ans |= mask;
             mask = mask << 1;
         }
         return ans;
