@@ -1,19 +1,20 @@
 class Solution {
 public:
     bool isNStraightHand(vector<int>& hand, int groupSize) {
+        int n=hand.size();
+        if(n % groupSize !=0) return false;
         map<int,int> mpp;
-        for(int i:hand)mpp[i]++;
-        queue<int> start;
-        int last=-1,opened=0;
-        for(auto it: mpp){
-            int i = it.first;
-            if(opened > 0 && i >last+1 || opened>mpp[i])return false;
-            start.push(mpp[i]-opened);
-            last = i,opened=mpp[i];
-            if(start.size()==groupSize){
-                opened -=start.front();start.pop();
+        for(int i=0;i<n;i++){
+            mpp[hand[i]]++;
+        }
+        while(!mpp.empty()){
+            int cur = mpp.begin()->first;
+            for(int i=0;i<groupSize;i++){
+                if(mpp[cur+i] == 0) return false;
+                mpp[cur+i]--;
+                if(mpp[cur+i]<1) mpp.erase(cur+i);
             }
         }
-        return opened==0;
+        return true;
     }
 };
