@@ -1,17 +1,16 @@
 class Solution {
 public:
-    bool checkSubarraySum(vector<int>& nums, int k) {
-        if(nums.size()<2) return false;
+    bool checkSubarraySum(vector<int>& nums, int k) {//23 2 4 6 7 k=6
         unordered_map<int,int> mpp;
-        mpp[0]=-1;
-        int sum=0;
+        int prefixSum=0;
         for(int i=0;i<nums.size();i++){
-            sum+=nums[i];
-            if(k!=0)sum = sum%k;
-            if(mpp.find(sum)!=mpp.end()){
-                if(i-mpp[sum]>1) return true;
+            prefixSum += nums[i];// ps = 5
+            prefixSum = prefixSum % k;//ps = 5
+            if(prefixSum == 0 && i>=1)return true;// 
+            if(mpp.find(prefixSum)!=mpp.end()){//
+                if(i-mpp[prefixSum] > 1) return true;//2-0=2
             }
-            else mpp[sum]=i;
+            else mpp[prefixSum] = i;//mpp---> _ 1 _ _ _ 0
         }
         return false;
     }
