@@ -1,30 +1,30 @@
 class Solution {
 public:
-    bool possible(vector<int> &arr, int day,int m, int k){
-        int cnt =0;
-        int B=0;
-        for(int i=0;i<arr.size();i++){
-            if(arr[i]<=day)cnt++;
+    bool possible(vector<int>& bloomDay,int d, int m,int k){
+        int cnt =0, bouq=0;
+        for(int i=0;i<bloomDay.size();i++){
+            if(bloomDay[i]<= d) cnt++;
             else{
-                B+=(cnt/k);
+                bouq += cnt/k;
                 cnt=0;
             }
         }
-        B+=(cnt/k);
-        return B>=m;
+        bouq += cnt/k;
+        return bouq >= m;
     }
-    int minDays(vector<int>& bloomDay, int m, int k) {
-        long long val =m*1LL*k*1LL;
-        if(val>bloomDay.size())return -1;
-        int mini=INT_MAX,maxi = INT_MIN;
-        for(int i=0;i<bloomDay.size();i++){
-            mini = min(mini,bloomDay[i]);
+    int minDays(vector<int>& bloomDay, int mc, int kc) {
+        long long m = mc, k = kc;
+        int n = bloomDay.size();
+        if(m*k > n)return -1;
+        int mini=1e9,maxi=-1e9;
+        for(int i=0;i<n;i++){
+            mini  = min(mini,bloomDay[i]);
             maxi = max(maxi,bloomDay[i]);
         }
-        int low = mini,high = maxi;
+        int low = mini, high = maxi;
         while(low<=high){
             int mid = (low+high)/2;
-            if(possible(bloomDay,mid,m,k))high = mid-1;
+            if(possible(bloomDay,mid,m,k))high=mid-1;
             else low=mid+1;
         }
         return low;
