@@ -4,10 +4,10 @@ public:
         int prev = position[0];
         int placed = 1;
         for(int i=1;i<position.size() && placed<m;i++){
-            int cur = position[i];
-            if(cur - prev >= x){
+            
+            if(position[i] - prev >= x){
                 placed++;
-                prev = cur;
+                prev = position[i];
             }
         }
         return placed == m;
