@@ -13,11 +13,11 @@ public:
         return placed == m;
     }
     int maxDistance(vector<int>& position, int m) {
-        int ans=0, n = position.size();
+        int ans=0, n = position.size();//1 2 3 4 7
         sort(position.begin(),position.end());
-        int low=1,high = ceil(position[n-1]/(m-1.0));
+        int low=1,high = *max_element(position.begin(),position.end());//low = 1 high = 
         while(low<=high){
-            int mid = low + (high-low)/2;
+            int mid = (low + high)/2;
             if(place(position,mid,m)){
                 ans = mid;
                 low = mid + 1;
