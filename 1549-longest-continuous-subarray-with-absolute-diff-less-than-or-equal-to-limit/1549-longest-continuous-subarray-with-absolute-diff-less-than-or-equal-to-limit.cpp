@@ -1,19 +1,26 @@
 class Solution {
 public:
     int longestSubarray(vector<int>& nums, int limit) {
-        int ans=0,l = 0,r=0;//8 2 4 7 
-        int n=nums.size();//n = 4
-        multiset<int> st;
-        while(r<n){// 3 < 4
-            st.insert(nums[r]);// 4 7 8 
-            int diff = *st.rbegin() - *st.begin();// diff = 8-4 = 4
-            if(diff>limit && l<r){//  6 > 4   &&   0 < 1 
-                auto num = st.find(nums[l]);// num = 2
-                st.erase(num);
-                l++;// l = 1
-                diff = *st.rbegin() - *st.begin();// diff = 0
+        int n=nums.size();
+        deque<pair<int,int>> mindq;
+        deque<pair<int,int>> maxdq;
+        int ans=0,l=0,r=0;
+        while(r<n){
+            while(!mindq.empty() && mindq.back().first > nums[r]) mindq.pop_back();
+            mindq.push_back({nums[r],r});
+
+            while(!maxdq.empty() && maxdq.back().first < nums[r]) maxdq.pop_back();
+            maxdq.push_back({nums[r],r});
+
+            int diff = maxdq.front().first - mindq.front().first;
+
+            while(l<r && diff>limit){
+                l =min( maxdq.front().second,mindq.front().second) + 1;
+                while( !maxdq.empty() && maxdq.front().second<l) maxdq.pop_front();
+                while( !mindq.empty() && mindq.front().second<l) mindq.pop_front();
+                diff = maxdq.front().first - mindq.front().first;
             }
-            ans = max(ans,(int)st.size());// ans = 2
+            ans = max(ans,r-l+1);
             r++;
         }
         return ans;
