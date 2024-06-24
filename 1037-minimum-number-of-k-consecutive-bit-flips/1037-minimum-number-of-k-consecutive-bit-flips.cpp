@@ -1,22 +1,18 @@
 class Solution {
 public:
     int minKBitFlips(vector<int>& nums, int k) {
-        int n = nums.size();//0 1 0  k=1 
-        deque<int> dq;//dq --> 1
-        int flipState = 0, ans = 0;//1
-        for (int i = 0; i < n; i++) {
-            if (i >= k) {
-                flipState = flipState ^ dq.front();
-                dq.pop_front();
+       int n=nums.size(), ans=0,times=0;
+       vector<int> flips(n,0);
+       for(int i=0;i<n;i++){
+            if(i>=k){
+                times -= flips[i-k];
             }
-            if (flipState == nums[i]) {
-                if (i + k > n) return -1;
-                dq.push_back(1);
-                flipState = flipState ^ 1;
-                ans++;
+            if((nums[i]==1 && times%2 == 1) || (nums[i]==0 && times%2==0)){
+                if(i+k>n) return -1;
+                ans++;times++;
+                flips[i]=1;
             }
-            else dq.push_back(0);
-        }
-        return ans;//ans = 1
+       } 
+       return ans;
     }
 };
