@@ -8,12 +8,9 @@ public:
             degree[edge[1]]++;
         }
 
-        for (pair<int, int> nodes : degree) {
-            int node = nodes.first;
-            int nodeDegree = nodes.second;
-
-            if (nodeDegree == edges.size()) {
-                return node;
+        for (auto& nodes : degree){
+            if (nodes.second == edges.size()) {
+                return nodes.first;
             }
         }
 
