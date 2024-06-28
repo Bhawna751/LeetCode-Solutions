@@ -7,13 +7,13 @@ public:
             degree[edge[0]]++;
             degree[edge[1]]++;
         }
-
+        
         sort (degree.begin(),degree.end());
-        long long cur=1, sum = 0;
-        for(long long it : degree){
-            sum += (cur*it);
-            cur++;
+        long long ans = 0;
+        for(long long i=0;i<n;i++){
+            ans += ((i+1)*degree[i]);
+            
         }
-        return sum;
+        return ans;
     }
 };
