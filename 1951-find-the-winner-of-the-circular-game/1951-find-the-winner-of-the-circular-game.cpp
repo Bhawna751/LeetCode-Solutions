@@ -1,17 +1,10 @@
 class Solution {
 public:
     int findTheWinner(int n, int k) {
-        queue<int> friends;
-        for(int i = 1;i<=n;i++){
-            friends.push(i);
+        int ans=0;
+        for(int i=2;i<=n;i++){
+            ans = (ans+k) % i;
         }
-        while(friends.size()>1){
-            for(int j =0;j<k-1;j++){
-                friends.push(friends.front());
-                friends.pop();
-            }
-            friends.pop();
-        }
-        return friends.front();
+        return ans+1;
     }
 };
