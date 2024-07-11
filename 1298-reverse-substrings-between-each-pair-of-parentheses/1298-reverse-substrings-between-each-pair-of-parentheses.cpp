@@ -4,15 +4,22 @@ public:
         stack<int> st;
         int n = s.length();
         string ans;
-        for(char it : s){
-            if(it == '('){
-                st.push(ans.length());
-            }else if(it == ')'){
-                int start = st.top();
+        vector<int> pair(n);
+        for(int i=0;i<n;i++){
+            if(s[i] == '(') st.push(i);
+            if(s[i] == ')'){
+                int j = st.top();
                 st.pop();
-                reverse(ans.begin() + start, ans.end());
+                pair[i]=j;
+                pair[j]=i;
+            }
+        }
+        for(int ind=0,dir=1;ind<n;ind += dir){
+            if(s[ind] == '(' || s[ind]==')'){
+                ind = pair[ind];
+                dir = -dir;
             }else{
-                ans += it;
+                ans += s[ind];
             }
         }
         return ans;
