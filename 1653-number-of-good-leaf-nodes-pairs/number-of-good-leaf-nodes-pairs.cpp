@@ -1,37 +1,57 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
-    int countPairs(TreeNode* root, int distance) {
-        unordered_map<TreeNode*, vector<TreeNode*>> map;
-        vector<TreeNode*> leaves;
-        findLeaves(root, {}, leaves, map);
-        int res = 0;
-        for (int i = 0; i < leaves.size(); i++) {
-            for (int j = i + 1; j < leaves.size(); j++) {
-                vector<TreeNode*>& list_i = map[leaves[i]];
-                vector<TreeNode*>& list_j = map[leaves[j]];
-                for (int k = 0; k < min(list_i.size(), list_j.size()); k++) {
-                    if (list_i[k] != list_j[k]) {
-                        int dist = list_i.size() - k + list_j.size() - k;
-                        if (dist <= distance) res++;
-                        break;
-                    }
+
+    vector<int> recur(TreeNode* root, int distance, int &cnt){
+
+        if(!root) return {0};
+
+        if(!root->left && !root->right) return {1};
+
+        vector<int> left = recur(root->left, distance,cnt);
+        vector<int> right = recur(root->right,distance,cnt);
+
+        for(int x: left){
+            for(int y: right){
+                if(x > 0 && y>0){
+                    if(x+y <= distance) cnt++;
                 }
             }
         }
-        return res;
+
+        vector<int> ans;
+        for(int x: left){
+            if(x>0 && x<distance){
+                ans.push_back(x+1);
+            }
+        }
+
+        for(int x: right){
+            if(x>0 && x<distance){
+                ans.push_back(x+1);
+            }
+        }
+
+        return ans;
+        
     }
 
-private:
-    void findLeaves(TreeNode* node, vector<TreeNode*> trail, vector<TreeNode*>& leaves, unordered_map<TreeNode*, vector<TreeNode*>>& map) {
-        if (!node) return;
-        vector<TreeNode*> tmp(trail);
-        tmp.push_back(node);
-        if (!node->left && !node->right) {
-            map[node] = tmp;
-            leaves.push_back(node);
-            return;
-        }
-        findLeaves(node->left, tmp, leaves, map);
-        findLeaves(node->right, tmp, leaves, map);
+    int countPairs(TreeNode* root, int distance) {
+
+        int cnt = 0;
+        recur(root,distance,cnt);
+
+        return cnt;
+        
     }
 };
