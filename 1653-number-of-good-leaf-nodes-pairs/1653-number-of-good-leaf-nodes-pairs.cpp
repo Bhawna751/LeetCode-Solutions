@@ -11,44 +11,47 @@
  */
 class Solution {
 public:
-    void traversal(TreeNode * child, TreeNode *parent, unordered_map<TreeNode*, vector<TreeNode*>> & graph,
-        unordered_set<TreeNode*> &leaf){
-        if(!child) return;
-        if(!child->left && !child->right) leaf.insert(child);
-        if(parent){
-            graph[parent].push_back(child);
-            graph[child].push_back(parent);
-        }
-        traversal(child->left, child, graph, leaf);
-        traversal(child->right, child, graph, leaf);
-    }
-    int countPairs(TreeNode* root, int distance) {
-        unordered_map<TreeNode*, vector<TreeNode*>> graph;
-        unordered_set<TreeNode*> leaf;
-        traversal(root, nullptr, graph, leaf);
-        int ans = 0;
-        for(auto it: leaf){
-            queue<TreeNode*> bfs;
-            unordered_set<TreeNode*> vis;
-            bfs.push(it);
-            vis.insert(it);
-            for(int i =0 ;i<= distance;i++){
-                int size = bfs.size();
-                for(int j=0;j<size;j++){
-                    TreeNode* cur = bfs.front();
-                    bfs.pop();
-                    if(leaf.count(cur) && cur!=it) ans++;
-                    if(graph.count(cur)){
-                        for(auto a: graph[cur]){
-                            if(!vis.count(a)){
-                                bfs.push(a);
-                                vis.insert(a);
-                            }
-                        }
-                    }
+
+    vector<int> recur(TreeNode* root, int distance, int &cnt){
+
+        if(!root) return {0};
+
+        if(!root->left && !root->right) return {1};
+
+        vector<int> left = recur(root->left, distance,cnt);
+        vector<int> right = recur(root->right,distance,cnt);
+
+        for(int x: left){
+            for(int y: right){
+                if(x > 0 && y>0){
+                    if(x+y <= distance) cnt++;
                 }
             }
         }
-        return ans/2;
+
+        vector<int> ans;
+        for(int x: left){
+            if(x>0 && x<distance){
+                ans.push_back(x+1);
+            }
+        }
+
+        for(int x: right){
+            if(x>0 && x<distance){
+                ans.push_back(x+1);
+            }
+        }
+
+        return ans;
+        
+    }
+
+    int countPairs(TreeNode* root, int distance) {
+
+        int cnt = 0;
+        recur(root,distance,cnt);
+
+        return cnt;
+        
     }
 };
