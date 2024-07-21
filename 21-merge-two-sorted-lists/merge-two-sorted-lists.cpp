@@ -11,21 +11,23 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        if (list1 == nullptr)
-            return list2;
-        if (list2 == nullptr)
-            return list1;
-        if(list1->val > list2->val) std::swap(list1,list2);
-            ListNode *res = list1;
-            while(list1!=nullptr && list2!=nullptr){
-                ListNode *temp=nullptr;
-                while (list1 != nullptr && list1->val <= list2->val) {
-                    temp = list1;
-                    list1 = list1->next;
-                }
-                temp->next=list2;
-                std::swap(list1,list2);
-            }
-            return res;
+        vector<int> arr;
+        ListNode *temp1=list1, *temp2=list2;
+        while(temp1!=nullptr){
+            arr.push_back(temp1->val);
+            temp1=temp1->next;
         }
+        while(temp2!=nullptr){
+            arr.push_back(temp2->val);
+            temp2=temp2->next;
+        }
+        sort(arr.begin(),arr.end());
+        ListNode *newHead = new ListNode();
+        ListNode *temp = newHead;
+        for(int i=0;i<arr.size();i++){
+            temp->next = new ListNode(arr[i]);
+            temp=temp->next;
+        }
+        return newHead->next;
+    }
 };
