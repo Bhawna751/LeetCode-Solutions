@@ -32,23 +32,20 @@ public:
         int n =rating.size(), team = 0;
         vector<vector<int>> inc(n,vector<int>(4,0));
         vector<vector<int>> dec(n,vector<int>(4,0));
-        for(int i = 0;i<n;i++){
-            inc[i][1]=1;
-            dec[i][1]=1;
-        }
-        for(int cnt = 2;cnt<=3;cnt++){
-            for(int i = 0;i<n;i++){
-                for(int j = i+1;j<n;j++){
-                    if(rating[j] > rating[i])
-                        inc[j][cnt] += inc[i][cnt-1];
-                    if(rating[j] < rating[i])
-                        dec[j][cnt] += dec[i][cnt-1];
-                }
+        for(int mid = 0;mid<n;mid++){
+            int small = 0,large = 0;
+            for(int l=mid-1;l>=0;l--){
+                if(rating[l] < rating[mid]) small++;
             }
+            for(int r=mid+1;r<n;r++){
+                if(rating[r] > rating[mid])large++;
+            }
+            team += small*large ;
+            int leftLarge = mid-small;
+            int rightSmall = n-mid-1-large;
+            team += leftLarge * rightSmall;
         }
-        for(int i=0;i<n;i++){
-            team += inc[i][3] + dec[i][3];
-        }
+        
         return team;
     }
 };
