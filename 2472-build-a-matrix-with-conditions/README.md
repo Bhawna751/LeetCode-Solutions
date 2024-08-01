@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/build-a-matrix-with-conditions">2472. Build a Matrix With Conditions</a></h2><h3>Hard</h3><hr><p>You are given a <strong>positive</strong> integer <code>k</code>. You are also given:</p>
+<h2><a href="https://leetcode.com/problems/build-a-matrix-with-conditions">Build a Matrix With Conditions</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You are given a <strong>positive</strong> integer <code>k</code>. You are also given:</p>
 
 <ul>
 	<li>a 2D integer array <code>rowConditions</code> of size <code>n</code> where <code>rowConditions[i] = [above<sub>i</sub>, below<sub>i</sub>]</code>, and</li>
