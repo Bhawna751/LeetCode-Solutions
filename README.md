@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0160-intersection-of-two-linked-lists) |
+| [0264-ugly-number-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0002-add-two-numbers) |
+| [0264-ugly-number-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0273-integer-to-english-words) |
 | [0870-magic-squares-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
 | [1642-water-bottles](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1642-water-bottles) |
@@ -228,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0948-sort-an-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 ## Merge Sort
 |  |
@@ -250,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [1196-filling-bookcase-shelves](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
