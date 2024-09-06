@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0198-house-robber](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0198-house-robber) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0870-magic-squares-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
@@ -291,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0198-house-robber](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0198-house-robber) |
 | [0264-ugly-number-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0650-2-keys-keyboard](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0664-strange-printer) |
