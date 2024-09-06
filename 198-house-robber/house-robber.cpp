@@ -11,20 +11,33 @@ public:
     //     dp[ind]=max(pick,notpick);
     //     return dp[ind];
     // }
-    int solve(int n,vector<int>&nums,vector<int>&dp){
-        dp[0] = nums[0];
+    //TABULATION:
+    // int solve(int n,vector<int>&nums,vector<int>&dp){
+    //     dp[0] = nums[0];
+    //     for(int i=1;i<n;i++){
+    //         int pick = nums[i];
+    //         if(i>1) pick+= dp[i-2];
+    //         int notpick = dp[i-1];
+    //         dp[i] = max(pick,notpick);
+    //     }
+    //     return dp[n-1];
+    // }
+    int solve(int n,vector<int>&nums){
+        int prev = nums[0];
+        int prev2 = 0;
         for(int i=1;i<n;i++){
             int pick = nums[i];
-            if(i>1) pick+= dp[i-2];
-            int notpick = dp[i-1];
-            dp[i] = max(pick,notpick);
+            if(i>1) pick += prev2;
+            int notpick = prev;
+            int cur = max(pick,notpick);
+            prev2=prev;
+            prev=cur;
         }
-        return dp[n-1];
+        return prev;
     }
     int rob(vector<int>& nums) {
         int n=nums.size();
-        vector<int> dp(n,0);
-        int ans=solve(n,nums,dp);
+        int ans=solve(n,nums);
         return ans;
     }
 };
