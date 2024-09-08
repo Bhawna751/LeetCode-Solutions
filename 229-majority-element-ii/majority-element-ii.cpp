@@ -4,7 +4,7 @@ public:
         int n = nums.size();
         vector<int> ans;
         for(int i=0;i<n;i++){
-            if(ans.size() == 0 || ans[0]!=nums[i]){
+            if(ans.size() == 0 || ans[0]!=nums[i]){// 3 2 3
                 int cnt = 0;
                 for(int j = 0;j<n;j++){
                     if(nums[i] == nums[j]) cnt++;
