@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0870-magic-squares-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [0906-walking-robot-simulation](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0906-walking-robot-simulation) |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0264-ugly-number-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
 | [0906-walking-robot-simulation](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0906-walking-robot-simulation) |
@@ -116,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0948-sort-an-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1333-sort-the-jumbled-numbers) |
@@ -207,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0564-find-the-closest-palindrome](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0564-find-the-closest-palindrome) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0664-strange-printer](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0664-strange-printer) |
+| [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [1250-longest-common-subsequence](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -247,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0210-course-schedule-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
+| [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -346,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0127-word-ladder](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0127-word-ladder) |
 | [0210-course-schedule-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
+| [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0999-regions-cut-by-slashes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
