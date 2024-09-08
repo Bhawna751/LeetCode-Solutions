@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0031-next-permutation) |
 | [0064-minimum-path-sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
 | [0198-house-robber](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0198-house-robber) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0031-next-permutation](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0061-rotate-list) |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
