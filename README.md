@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0033-search-in-rotated-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0162-find-peak-element) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0031-next-permutation](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0142-linked-list-cycle-ii) |
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
@@ -349,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0072-edit-distance) |
 | [0152-maximum-product-subarray](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
@@ -417,5 +421,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
