@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0455-assign-cookies) |
+| [0496-next-greater-element-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0870-magic-squares-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0229-majority-element-ii) |
 | [0264-ugly-number-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0496-next-greater-element-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0726-number-of-atoms](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -411,4 +414,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1240-stone-game-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
