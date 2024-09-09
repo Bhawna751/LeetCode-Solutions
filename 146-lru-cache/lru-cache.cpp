@@ -30,6 +30,7 @@ public:
         ListNode *q = node->next;
         temp->next = q;
         q->prev = temp;
+        
     }
     int get(int key) {
         if(mpp.find(key)!=mpp.end()){
