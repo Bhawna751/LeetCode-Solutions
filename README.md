@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0152-maximum-product-subarray](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0162-find-peak-element) |
 | [0198-house-robber](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0198-house-robber) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0127-word-ladder) |
 | [0141-linked-list-cycle](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0142-linked-list-cycle-ii) |
@@ -276,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
@@ -301,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -329,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0148-sort-list](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0148-sort-list) |
 | [0948-sort-an-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
