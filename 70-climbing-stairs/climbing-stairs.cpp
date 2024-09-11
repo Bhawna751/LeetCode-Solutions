@@ -6,12 +6,12 @@ public:
         return dp[n] = f(dp,n-1) + f(dp,n-2);
     }
     int climbStairs(int n) {
-        vector<int> dp(n+1,-1);
-        dp[0] = 1;
-        dp[1] = 1;
-        for(int i =2;i<=n;i++){
-            dp[i] = dp[i-1] + dp[i-2];
+        int prev = 1, prev2=1;
+        for(int i = 2;i<=n;i++){
+            int cur = prev + prev2;
+            prev2 = prev;
+            prev = cur;
         }
-        return dp[n];
+        return prev;
     }
 };
