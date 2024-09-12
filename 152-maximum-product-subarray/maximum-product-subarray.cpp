@@ -1,14 +1,18 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        int ans = -1e9, n = nums.size();
-        for(int i=0;i<n;i++){
-            int cur = 1;
-            for(int j = i;j<n;j++){
-                cur *= nums[j];
-                ans = max(ans,cur);
+        int n = nums.size();
+        int mini = 1, maxi = 1;
+        int ans = -1e9;
+        for (int j = 0; j < n; j++) {
+            if(nums[j] < 0){
+                swap(maxi,mini);
             }
+            maxi = max(maxi*nums[j], nums[j]);
+            mini = min(mini*nums[j], nums[j]);
+            ans = max(ans, maxi);
         }
+
         return ans;
     }
 };
