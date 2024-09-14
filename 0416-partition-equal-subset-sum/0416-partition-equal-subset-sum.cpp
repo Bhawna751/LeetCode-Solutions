@@ -1,14 +1,6 @@
 class Solution {
 public:
-    bool solve(vector<int> &nums, int k, int i,vector<vector<int>> &dp){
-        if(k==0)return true;
-        if(i==0)return nums[i] == k;
-        if(dp[i][k] !=-1) return dp[i][k];
-        bool notpick = solve(nums,k,i-1,dp);
-        bool pick = 0;
-        if(nums[i] <= k) pick = solve(nums,k-nums[i],i-1,dp);
-        return dp[i][k]= notpick || pick;
-    }
+    
     bool canPartition(vector<int>& nums) {
         int n = nums.size();
         
@@ -19,8 +11,18 @@ public:
         if(total%2!=0)return false;
         else{
             int k = total/2;
-            vector<vector<int>> dp(n,vector<int>(k+1,-1));
-            return solve(nums,k,n-1,dp);
+            vector<vector<bool>> dp(n,vector<bool>(k+1,false));
+            for(int i=0;i<n;i++) dp[i][0]=true;
+            if(nums[0] <= k)dp[0][nums[0]] = true;
+            for(int i=1;i<n;i++){
+                for(int j=1;j<=k;j++){
+                    bool notpick = dp[i-1][j];
+                    bool pick = false;
+                    if(nums[i] <= j) pick = dp[i-1][j-nums[i]];
+                    dp[i][j] = notpick || pick;
+                }
+            }
+            return dp[n-1][k];
         }
     }
 };
