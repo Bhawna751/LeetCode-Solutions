@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0416-partition-equal-subset-sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0518-coin-change-ii) |
@@ -394,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0198-house-robber) |
 | [0264-ugly-number-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0264-ugly-number-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0300-longest-increasing-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0518-coin-change-ii) |
 | [0650-2-keys-keyboard](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0650-2-keys-keyboard) |
