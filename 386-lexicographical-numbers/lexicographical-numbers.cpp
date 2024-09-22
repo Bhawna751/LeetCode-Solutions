@@ -1,19 +1,17 @@
 class Solution {
-private:
-    void generate(int cur, int limit, vector<int> &ans){
-        if(cur > limit) return ;
-        ans.push_back(cur);
-        for(int i=0;i<=9;i++){
-            int nxt = cur * 10 + i;
-            if(nxt <= limit) generate(nxt,limit,ans);
-            else break;
-        }
-    }
 public:
-    vector<int> lexicalOrder(int n) {
-        vector<int> ans;
-        for(int i = 1;i<=9;i++){
-            generate(i,n,ans);
+    vector<int> lexicalOrder(int n) {//n =13
+        int cur = 1;//cur = 10
+        vector<int> ans;//1 10
+        for(int i=0;i<n;i++){
+            ans.push_back(cur);
+            if(cur * 10 <= n) cur *= 10;
+            else{
+                while(cur%10 == 9 || cur>=n){
+                    cur /= 10;
+                }
+                cur += 1;
+            }
         }
         return ans;
     }
