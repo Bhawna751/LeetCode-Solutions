@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
 | [0735-asteroid-collision](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0735-asteroid-collision) |
+| [0859-design-circular-deque](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
 | [0890-lemonade-change](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [0906-walking-robot-simulation](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0906-walking-robot-simulation) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0237-delete-node-in-a-linked-list) |
 | [0725-split-linked-list-in-parts](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0725-split-linked-list-in-parts) |
+| [0859-design-circular-deque](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 | [0908-middle-of-the-linked-list](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0908-middle-of-the-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
@@ -278,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
+| [0859-design-circular-deque](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## String
 |  |
@@ -542,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0729-my-calendar-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
+| [0859-design-circular-deque](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0859-design-circular-deque) |
 ## Doubly-Linked List
 |  |
 | ------- |
