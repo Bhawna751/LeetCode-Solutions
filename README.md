@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0432-all-oone-data-structure](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0432-all-oone-data-structure) |
 | [0496-next-greater-element-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0496-next-greater-element-i) |
+| [0567-permutation-in-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
 | [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0455-assign-cookies) |
+| [0567-permutation-in-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0908-middle-of-the-linked-list](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0908-middle-of-the-linked-list) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -320,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0539-minimum-time-difference](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0564-find-the-closest-palindrome) |
+| [0567-permutation-in-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0664-strange-printer](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0664-strange-printer) |
 | [0686-repeated-string-match](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0686-repeated-string-match) |
@@ -532,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
+| [0567-permutation-in-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Strongly Connected Component
 |  |
