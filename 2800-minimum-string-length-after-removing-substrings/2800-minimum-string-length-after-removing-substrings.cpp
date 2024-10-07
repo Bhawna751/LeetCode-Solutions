@@ -1,10 +1,17 @@
 class Solution {
 public:
     int minLength(string s) {
-        while(s.find("AB") !=-1 || s.find("CD")!= -1){
-            if(s.find("AB") != -1) s.erase(s.find("AB"),2);
-            else if(s.find("CD") != -1) s.erase(s.find("CD"),2);
+        stack<char> st;
+        for(int i=0;i<s.length();i++){
+            char ch = s[i];
+            if(st.empty()){
+                st.push(ch);
+                continue;
+            }
+            if(ch == 'B' && st.top() == 'A') st.pop();
+            else if(ch == 'D' && st.top() == 'C') st.pop();
+            else st.push(ch);
         }
-        return s.length();
+        return st.size();
     }
 };
