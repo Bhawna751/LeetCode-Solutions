@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2727-number-of-senior-citizens](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1923-sentence-similarity-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1923-sentence-similarity-iii) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Binary Search
 |  |
@@ -299,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2132-convert-1d-array-into-2d-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2411-spiral-matrix-iv](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2411-spiral-matrix-iv) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2645-pass-the-pillow](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2846-robot-collisions) |
@@ -497,6 +500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-path-with-maximum-probability](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2553-total-cost-to-hire-k-workers) |
 ## Merge Sort
 |  |
 | ------- |
