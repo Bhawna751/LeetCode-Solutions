@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1497-design-a-stack-with-increment-operation](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1511-count-number-of-teams](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -542,6 +543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
@@ -588,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0567-permutation-in-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0567-permutation-in-string) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Strongly Connected Component
 |  |
