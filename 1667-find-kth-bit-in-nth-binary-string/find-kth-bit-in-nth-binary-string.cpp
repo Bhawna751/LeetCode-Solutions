@@ -1,15 +1,14 @@
 class Solution {
 public:
     char findKthBit(int n, int k) {
-        string sn = "0";
-        for(int i=0;i<n && k>sn.length();i++){
-            sn += '1';
-            string temp=sn;
-            for(int j = temp.length()-2;j>=0;j--){
-                char inverted = (temp[j] == '1') ? '0':'1';
-                sn += inverted;
-            }
+        if(n==1) return '0';
+        int bits = pow(2,n);
+        if(bits/2 > k) return findKthBit(n-1,k);
+        else if(bits/2 == k) return '1';
+        else{
+            char bit = findKthBit(n-1,bits-k);
+            return (bit == '0') ? '1':'0';
         }
-        return sn[k-1];
+        
     }
 };
