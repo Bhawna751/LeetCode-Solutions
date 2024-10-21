@@ -1,20 +1,25 @@
 class Solution {
 public:
-    int f(int ind, string s, unordered_set<string> &st){
-        if(ind==s.length())return 0;
-        int cnt=0;
-        for(int i = ind+1; i<=s.length();i++){
-            string substr = s.substr(ind,i-ind);
-            if(st.find(substr)==st.end()){
-                st.insert(substr);
-                cnt = max(cnt, 1+f(i,s,st));
-                st.erase(substr);
-            }
+    unordered_set<string> st;
+    int n, maxcnt=0;
+    void f(int ind, string s,int cnt){
+        if(ind>=n){
+            maxcnt = max(maxcnt, cnt);
+            return;
         }
-        return cnt;
+        
+        for(int i = ind; i<n ;i++){
+            string substr = s.substr(ind,i-ind+1);
+            if(st.count(substr)) continue;
+            st.insert(substr);
+            f(i+1,s,cnt+1);
+            st.erase(substr);
+        }
     }
     int maxUniqueSplit(string s) {
-        unordered_set<string> st;
-        return f(0,s,st);
+        n=s.length();
+        int cnt=0;
+        f(0,s,cnt);
+        return maxcnt;
     }
 };
