@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1293-three-consecutive-odds](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1293-three-consecutive-odds) |
 | [1325-path-with-maximum-probability](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1333-sort-the-jumbled-numbers) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1511-count-number-of-teams](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1511-count-number-of-teams) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1304-longest-happy-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1304-longest-happy-string) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1720-crawler-log-folder](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -471,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0988-flip-equivalent-binary-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0988-flip-equivalent-binary-trees) |
 | [0999-regions-cut-by-slashes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1484-linked-list-in-binary-tree](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -702,6 +705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0386-lexicographical-numbers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
