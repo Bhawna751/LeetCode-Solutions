@@ -1,33 +1,29 @@
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        int n1=nums1.size(),n2=nums2.size(),i=0,j=0;
-        int n=n1+n2;
-        int ind2 = n/2;
-        int ind1 = ind2-1,cnt=0,ele1 = -1,ele2=-1;
-        while(i<n1 && j<n2){
-            if(nums1[i] < nums2[j]){
-                if(cnt == ind1) ele1=nums1[i];
-                if(cnt == ind2) ele2=nums1[i];
-                cnt++;i++;
+        int n = nums1.size(), m = nums2.size();
+        if(n > m)return findMedianSortedArrays(nums2,nums1);
+        int ind = n+m;
+        int left = (ind+1)/2;
+        int low = 0, high = n;
+        while(low<=high){
+            int mid1 = (low+high)/2;
+            int mid2 = left-mid1;
+            int l1 = (mid1 > 0) ? nums1[mid1 - 1] : -1e9;
+            int r1 = (mid1 < n) ? nums1[mid1] : 1e9;
+            int l2 = (mid2 > 0) ? nums2[mid2 - 1] : -1e9;
+            int r2 = (mid2 < m) ? nums2[mid2] : 1e9;
+
+            if (l1 <= r2 && l2 <= r1) {
+                if (ind % 2 == 1) return max(l1, l2);
+                else return (max(l1, l2) + min(r1, r2)) / 2.0;
+            } 
+            else if (l1 > r2) {
+                high = mid1 - 1;
+            } else {
+                low = mid1 + 1;
             }
-            else{
-                if(cnt == ind1) ele1 = nums2[j];
-                if(cnt == ind2) ele2 = nums2[j];
-                cnt++;j++;
-            }
         }
-        while(i<n1){
-            if(cnt == ind1) ele1 = nums1[i];
-            if(cnt==ind2) ele2 = nums1[i];
-            cnt++;i++;
-        }
-        while(j<n2){
-            if(cnt == ind1) ele1 = nums2[j];
-            if(cnt == ind2) ele2 = nums2[j];
-            cnt++;j++;
-        }
-        if(n%2==1)return ele2;
-        return (double)((double)(ele1+ele2))/2.0;
+        return 0;
     }
 };
