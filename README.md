@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2727-number-of-senior-citizens](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [2846-robot-collisions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2846-robot-collisions) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3195-separate-black-and-white-balls](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3195-separate-black-and-white-balls) |
 ## Binary Search
 |  |
@@ -232,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 ## Sorting
 |  |
 | ------- |
@@ -264,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2846-robot-collisions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2846-robot-collisions) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Greedy
 |  |
