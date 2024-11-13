@@ -1,27 +1,25 @@
 class Solution {
 public:
-    int countStud(vector<int> &nums,int mid){
+    int partitions(vector<int>&nums, int target){
         int n=nums.size();
-        int students = 1;
-        long long page = 0;
+        int cnt=1;
+        long long sum = 0;
         for(int i=0;i<n;i++){
-            if(page + nums[i]<=mid) page+= nums[i];
+            if(sum + nums[i] <= target)sum += nums[i];
             else{
-                students++;
-                page = nums[i];
-            }        
+                cnt++;
+                sum = nums[i];
+            }
         }
-        return students;
+        return cnt;
     }
     int splitArray(vector<int>& nums, int k) {
-        int n=nums.size();
-        if(k>n)return -1;
-        int low = *max_element(nums.begin(),nums.end());
-        int high = accumulate(nums.begin(),nums.end(),0);
+        int n = nums.size();
+        int low = *max_element(nums.begin(), nums.end()), high = accumulate(nums.begin(),nums.end(),0);
         while(low<=high){
             int mid = (low+high)/2;
-            int students = countStud(nums,mid);
-            if(students > k) low = mid+1;
+            int cnt = partitions(nums,mid);
+            if(cnt>k)low=mid+1;
             else high = mid-1;
         }
         return low;
