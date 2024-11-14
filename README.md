@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
+| [0074-search-a-2d-matrix](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0033-search-in-rotated-sorted-array) |
+| [0074-search-a-2d-matrix](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0162-find-peak-element) |
 | [0268-missing-number](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
@@ -509,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0048-rotate-image) |
 | [0064-minimum-path-sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
+| [0074-search-a-2d-matrix](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0074-search-a-2d-matrix) |
 | [0870-magic-squares-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
