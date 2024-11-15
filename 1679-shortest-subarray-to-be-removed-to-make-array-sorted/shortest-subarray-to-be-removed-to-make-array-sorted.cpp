@@ -1,0 +1,14 @@
+class Solution {
+public:
+    int findLengthOfShortestSubarray(vector<int>& arr) {
+        int l=0,r=arr.size()-1;//[1,2,3,10,4,2,3,5] l=3, r = 8
+        while(r>0 && arr[r] >= arr[r-1])r--;
+        int ans=r;//ans=min(3,4)=3
+        while(l<r && (l==0 || arr[l-1] <= arr[l])){
+            while(r<arr.size() && arr[l] > arr[r])r++;
+            ans = min(ans,r-l-1);
+            l++;
+        }
+        return ans;
+    }
+};
