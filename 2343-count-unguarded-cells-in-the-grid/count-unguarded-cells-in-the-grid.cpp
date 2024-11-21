@@ -5,10 +5,10 @@ public:
         for(auto it: guards)mat[it[0]][it[1]]=-1;
         for(auto it: walls)mat[it[0]][it[1]]=-2;   
         /*
-            0  0  0  0
-            0  0  0  0
-            0  0  0  0
-            
+            -1 -2  1  1  1  1
+            1  -1  0 -2  1  1
+            1   1 -2 -1  0  0
+            1   1  1  1  1  1        
         */
         for(int i=0;i<m;i++){
             bool flag=true;
