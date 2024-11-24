@@ -6,9 +6,9 @@ public:
         int neg = 0;
         for(auto it: matrix){
             for(int val : it){
-                ans += abs(val);
-                if(val < 0)neg++;
-                mini = min(mini,abs(val));
+                ans += abs(val);//ans = 6
+                if(val < 0)neg++;//neg = 0
+                mini = min(mini,abs(val));//mini = 1
             }
         }   
         if(neg % 2 != 0)ans -= 2 * mini;
