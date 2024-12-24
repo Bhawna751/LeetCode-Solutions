@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [3189-find-champion-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3189-find-champion-ii) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Array
 |  |
 | ------- |
@@ -490,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2306-create-binary-tree-from-descriptions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2384-root-equals-sum-of-children](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2384-root-equals-sum-of-children) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+| [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -512,6 +514,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-count-sub-islands](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+| [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Binary Tree
 |  |
 | ------- |
@@ -661,6 +664,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Binary Indexed Tree
 |  |
 | ------- |
