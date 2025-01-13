@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-length-of-string-after-operations">Minimum Length of String After Operations</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>s</code>.</p>
+<h2><a href="https://leetcode.com/problems/minimum-length-of-string-after-operations">3455. Minimum Length of String After Operations</a></h2><h3>Medium</h3><hr><p>You are given a string <code>s</code>.</p>
 
 <p>You can perform the following process on <code>s</code> <strong>any</strong> number of times:</p>
 
