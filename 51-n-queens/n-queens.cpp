@@ -1,46 +1,44 @@
 class Solution {
 public:
-    bool isSafe(int row,int col,vector<string> &board,int n){
-        int duprow=row;
-        int dupcol=col;
-        while(row>=0 && col>=0){
-            if(board[row][col]=='Q')return false;
-            row--;col--;
-        }
-        col=dupcol; row=duprow;
-        while (col >= 0) {
-        if (board[row][col] == 'Q')
-            return false;
-        col--;
-        }
-        col=dupcol; row=duprow;
-        while(row<n && col>=0){
-            if(board[row][col]=='Q')return false;
-            row++;col--;
-        }
-        return true;
-    }
-    void solve(int ind,vector<string> &board,vector<vector<string>> &ans,int n){
-        if(ind==n){
+    void solve(vector<string>&board, vector<vector<string>>&ans,int j){
+        if(j == board.size()){
             ans.push_back(board);
-            return ;
+            return;
         }
-        for(int i=0;i<n;i++){
-            if(isSafe(i,ind,board,n)){
-                board[i][ind]='Q';
-                solve(ind+1,board,ans,n);
-                board[i][ind]='.';
+        for(int i=0;i<board.size();i++){
+            if(valid(board,i,j)){
+                board[i][j] = 'Q';
+                solve(board,ans,j+1);
+                board[i][j] = '.';
             }
         }
     }
-    vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> ans;
-        vector<string> board(n);
-        string s(n,'.');
-        for(int i=0;i<n;i++){
-            board[i]=s;
+    bool valid(vector<string>&board, int i, int j){
+        int r = i, c=j;
+        while(r>=0 && c>=0){
+            if(board[r][c] == 'Q')return false;
+            r--;
+            c--;
         }
-        solve(0,board,ans,n);
+        r=i;
+        c=j;
+        while(c>=0){
+            if(board[r][c] == 'Q')return false;
+            c--;
+        }
+        r=i;
+        c=j;
+        while(c>=0 && r<board.size()){
+            if(board[r][c] == 'Q')return false;
+            r++;
+            c--;
+        }
+        return true;
+    }
+    vector<vector<string> > solveNQueens(int n) {
+        vector<vector<string>> ans;
+        vector<string> board(n,string(n,'.'));
+        solve(board,ans,0);
         return ans;
     }
 };
