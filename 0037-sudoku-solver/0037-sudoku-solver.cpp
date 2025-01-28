@@ -1,27 +1,31 @@
 class Solution {
 public:
-    bool isvalid(vector<vector<char>>&board,int row, int col, char c){
-        for(int i=0;i<9;i++){
-            if(board[i][col]==c)return false;
-            if(board[row][i]==c)return false;
-            if(board[3*(row/3)+i/3][3*(col/3)+i%3]==c) return false;
+    bool valid(vector<vector<char>>&board, int r, int c, int d){
+        for(int i=0;i<9;i++) {
+            if(board[r][i]==d || board[i][c]==d)return false;
+        }
+        int sc = (c/3)*3, sr = (r/3)*3;
+        for(int i=sr;i<sr+3;i++){
+            for(int j=sc;j<sc+3;j++){
+                if(board[i][j] == d)return false;
+            }
         }
         return true;
     }
     bool solve(vector<vector<char>>&board){
-        for(int i=0;i<board.size();i++){
-            for(int j=0;j<board[0].size();j++){
+        int n=9;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
                 if(board[i][j]=='.'){
-                    for(char c='1';c<='9';c++){
-                        if(isvalid(board,i,j,c)){
-                            board[i][j]=c;
-                            if(solve(board)==true)return true;
+                    for(char d = '1' ; d<='9';d++){
+                        if(valid(board,i,j,d)){
+                            board[i][j]=d;
+                            if(solve(board))return true;
                             else board[i][j]='.';
                         }
                     }
-                return false;
+                    return false;
                 }
-
             }
         }
         return true;
