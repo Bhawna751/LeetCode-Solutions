@@ -1,83 +1,41 @@
-class DisjointSet{
-public:
-    vector<int> parent,size;
-    DisjointSet(int n){
-        parent.resize(n);
-        size.resize(n);
-        for(int i=0;i<n;i++){
-            parent[i]=i;
-            size[i]=1;
-        }
-    }
-    int findPar(int node){
-        if(node == parent[node])return node;
-        return findPar(parent[node]);
-    }
-    void unionbysize(int u,int v){
-        int uu = findPar(u);
-        int uv = findPar(v);
-        if(uu == uv)return;
-        if (size[uu]<size[uv]){
-            parent[uu]=uv;
-            size[uv]+=size[uu];
-        }
-        else{
-            parent[uv]=uu;
-            size[uu]+=size[uv];
-        }
-    }
-};
 class Solution {
-private:
-    bool check(int nr,int nc,int n){
-        return nr>=0 && nr<n && nc>=0 && nc<n;
-    }
 public:
+    int explore(vector<vector<int>>&grid,int id, int i, int j){
+        if(i<0 || i>=grid.size() || j<0 || j>=grid[0].size() || grid[i][j] != 1) return 0;
+        grid[i][j] = id;
+        return 1 + explore(grid,id,i+1,j) + explore(grid,id,i-1,j)+ explore(grid,id,i,j+1) + explore(grid,id,i,j-1);
+    }
     int largestIsland(vector<vector<int>>& grid) {
-        int n=grid.size();
-        DisjointSet ds(n*n);
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                if(grid[i][j]==0)continue;
-                int dr[]={-1,0,1,0};
-                int dc[]={0,-1,0,1};
-                for(int ind=0;ind<4;ind++){
-                    int nr = i+dr[ind];
-                    int nc = j+dc[ind];
-                    if(check(nr,nc,n)&&grid[nr][nc]==1){
-                        int nodeno=i*n+j;
-                        int adjnode = nr*n+nc;
-                        ds.unionbysize(nodeno,adjnode);
-                    }
+        unordered_map<int,int> size;
+        int id=2;
+        for(int i=0;i<grid.size();i++){
+            for(int j=0;j<grid[0].size();j++){
+                if(grid[i][j] == 1){
+                    size[id] = explore(grid,id,i,j);
+                    id++;
                 }
             }
         }
-        int a=0;
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                if(grid[i][j]==1)continue;
-                int dr[]={-1,0,1,0};
-                int dc[]={0,-1,0,1};
-                set<int> components;
-                for(int ind=0;ind<4;ind++){
-                    int nr = i+dr[ind];
-                    int nc = j+dc[ind];
-                    if(check(nr,nc,n)){
-                        if(grid[nr][nc]==1){
-                            components.insert(ds.findPar(nr*n+nc));
-                        }
-                    }
+        if(size.empty())return 1;
+        if(size.size() == 1){
+            id--;
+            return (size[id] == grid.size()*grid[0].size()) ? size[id] : size[id]+1;
+        }
+        int maxSize = 1;
+        for(int i=0;i<grid.size();i++){
+            for(int j=0;j<grid[0].size();j++){
+                if(grid[i][j] == 0){
+                    int cur = 1;
+                    unordered_set<int> neighbour;
+                    if(i+1 < grid.size() && grid[i+1][j] > 1) neighbour.insert(grid[i+1][j]);
+                    if(i-1 >= 0 && grid[i-1][j] > 1)neighbour.insert(grid[i-1][j]);
+                    if(j+1 < grid[0].size() && grid[i][j+1] > 1)neighbour.insert(grid[i][j+1]);
+                    if(j-1 >= 0 && grid[i][j-1] > 1)neighbour.insert(grid[i][j-1]);
+                    for(int it: neighbour) cur += size[it];
+                    maxSize = max(maxSize,cur);
                 }
-                int size=0;
-                for(auto it:components){
-                    size+=ds.size[it];
-                }
-                a=max(a,size+1);
             }
         }
-        for(int i=0;i<n*n;i++ ){
-            a=max(a,ds.size[ds.findPar(i)]);
-        }
-        return a;
+        return maxSize;
     }
 };
