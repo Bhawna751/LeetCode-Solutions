@@ -1,50 +1,34 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        int n= grid.size();
-        int m=grid[0].size();
-        int total=0, rot=0,cnt=0;
-        queue<pair<pair<int,int>,int>> q;
-        vector<vector<int>> visited(n,vector<int>(m,0));
+        int n=grid.size(), m=grid[0].size();
+        queue<pair<int,int>> coordinates;
+        int total=0,cnt=0,time=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                if(grid[i][j]>0)total++;
-                if(grid[i][j]==2){
-                    rot++;
-                    q.push({{i,j},0});
-                    visited[i][j]=1;
-                }
-                else visited[i][j]=0;
+                if(grid[i][j] != 0) total++;
+                if(grid[i][j] == 2)coordinates.push({i,j});
             }
         }
-        int row[]={-1,0,1,0};
-        int col[]={0,-1,0,1};
-        int maxi=0;
-        while(!q.empty()){
-            int r=q.front().first.first;
-            int c=q.front().first.second;
-            int t=q.front().second;
-            maxi = max(t,maxi);
-            q.pop();
-            for(int i=0;i<4;i++){
-                int nr = r+row[i];
-                int nc = c+col[i];
-                int time=t;
-                if(nr<n && nr>=0 && nc<m && nc>=0 && grid[nr][nc]==1){
-                    if(!visited[nr][nc]){
-                        visited[nr][nc]=1;
-                        q.push({{nr,nc},time+1});
-                        grid[nr][nc]=2;
-                        cnt++;
-                    }
+        int dx[4] = {-1,0,1,0};
+        int dy[4] = {0,-1,0,1};
+        while(!coordinates.empty()){
+            int k = coordinates.size();
+            cnt += k;
+            while(k--){
+                int x=coordinates.front().first;
+                int y=coordinates.front().second;
+                coordinates.pop();
+                for(int dir = 0;dir<4;dir++){
+                    int nx = x + dx[dir];
+                    int ny = y + dy[dir];
+                    if(nx < 0 || ny < 0 || nx >= n || ny >= m || grid[nx][ny] != 1) continue;
+                    grid[nx][ny] = 2;
+                    coordinates.push({nx,ny});
                 }
             }
+            if(!coordinates.empty()) time++;
         }
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(grid[i][j]==1)return -1;
-            }
-        }
-        return maxi;
+        return total == cnt ? time : -1;
     }
 };
