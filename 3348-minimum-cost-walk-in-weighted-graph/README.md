@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph">Minimum Cost Walk in Weighted Graph</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>There is an undirected weighted graph with <code>n</code> vertices labeled from <code>0</code> to <code>n - 1</code>.</p>
+<h2><a href="https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph">3348. Minimum Cost Walk in Weighted Graph</a></h2><h3>Hard</h3><hr><p>There is an undirected weighted graph with <code>n</code> vertices labeled from <code>0</code> to <code>n - 1</code>.</p>
 
 <p>You are given the integer <code>n</code> and an array <code>edges</code>, where <code>edges[i] = [u<sub>i</sub>, v<sub>i</sub>, w<sub>i</sub>]</code> indicates that there is an edge between vertices <code>u<sub>i</sub></code> and <code>v<sub>i</sub></code> with a weight of <code>w<sub>i</sub></code>.</p>
 
