@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/find-the-count-of-good-integers">3548. Find the Count of Good Integers</a></h2><h3>Hard</h3><hr><p>You are given two <strong>positive</strong> integers <code>n</code> and <code>k</code>.</p>
+<h2><a href="https://leetcode.com/problems/find-the-count-of-good-integers">Find the Count of Good Integers</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You are given two <strong>positive</strong> integers <code>n</code> and <code>k</code>.</p>
 
 <p>An integer <code>x</code> is called <strong>k-palindromic</strong> if:</p>
 
