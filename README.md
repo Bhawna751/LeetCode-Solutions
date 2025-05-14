@@ -228,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3455-minimum-length-of-string-after-operations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3548-find-the-count-of-good-integers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -422,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2645-pass-the-pillow](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3548-find-the-count-of-good-integers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Recursion
 |  |
 | ------- |
@@ -501,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Stack
 |  |
 | ------- |
@@ -667,6 +670,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -703,6 +707,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [2755-extra-characters-in-a-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
+| [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Shortest Path
 |  |
 | ------- |
