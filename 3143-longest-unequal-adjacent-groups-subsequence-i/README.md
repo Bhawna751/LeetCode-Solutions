@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i">3143. Longest Unequal Adjacent Groups Subsequence I</a></h2><h3>Easy</h3><hr><p>You are given a string array <code>words</code> and a <strong>binary</strong> array <code>groups</code> both of length <code>n</code>.</p>
+<h2><a href="https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i">Longest Unequal Adjacent Groups Subsequence I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a string array <code>words</code> and a <strong>binary</strong> array <code>groups</code> both of length <code>n</code>.</p>
 
 <p>A <span data-keyword="subsequence-array">subsequence</span> of <code>words</code> is <strong>alternating</strong> if for any two <em>consecutive</em> strings in the sequence, their corresponding elements at the <em>same</em> indices in <code>groups</code> are <strong>different</strong> (that is, there <em>cannot</em> be consecutive 0 or 1).</p>
 
