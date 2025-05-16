@@ -160,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2846-robot-collisions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2846-robot-collisions) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
+| [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -500,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2727-number-of-senior-citizens](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3195-separate-black-and-white-balls](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3195-separate-black-and-white-balls) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -710,6 +712,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2710-minimum-operations-to-reduce-an-integer-to-0](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2710-minimum-operations-to-reduce-an-integer-to-0) |
 | [2755-extra-characters-in-a-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2755-extra-characters-in-a-string) |
+| [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Shortest Path
