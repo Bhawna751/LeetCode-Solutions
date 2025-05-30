@@ -909,4 +909,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3548-find-the-count-of-good-integers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
+## Database
+|  |
+| ------- |
+| [0584-find-customer-referee](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0584-find-customer-referee) |
 <!---LeetCode Topics End-->
