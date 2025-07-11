@@ -8,9 +8,8 @@ public:
 
         if (n==k) return eventTime-busy;
 
-        int ans=startTime[k]-busy;//1st window
-
-        // sliding window
+        int ans=startTime[k]-busy;
+       
         for (int l=0, r=k; r<n; l++, r++) {
             busy+=(endTime[r]-startTime[r])-(endTime[l]-startTime[l]);
             int end=(r==n-1)?eventTime:startTime[r+1];
