@@ -741,6 +741,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
@@ -877,6 +878,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
+| [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 ## Trie
 |  |
