@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0906-walking-robot-simulation](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0906-walking-robot-simulation) |
 | [0907-koko-eating-bananas](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0907-koko-eating-bananas) |
 | [0921-spiral-matrix-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0921-spiral-matrix-iii) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0948-sort-an-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [0999-regions-cut-by-slashes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1002-maximum-width-ramp) |
@@ -749,6 +750,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0664-strange-printer](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0664-strange-printer) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0868-push-dominoes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0868-push-dominoes) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1196-filling-bookcase-shelves](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1250-longest-common-subsequence](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
@@ -812,6 +814,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0338-counting-bits) |
 | [0476-number-complement](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0476-number-complement) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
