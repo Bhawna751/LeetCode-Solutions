@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0854-making-a-large-island](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0179-largest-number) |
 | [0189-rotate-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0229-majority-element-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0268-missing-number) |
@@ -601,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0133-clone-graph](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0133-clone-graph) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
+| [0200-number-of-islands](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0210-course-schedule-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
 | [0386-lexicographical-numbers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
@@ -645,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0074-search-a-2d-matrix) |
+| [0200-number-of-islands](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0854-making-a-large-island](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0854-making-a-large-island) |
 | [0870-magic-squares-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
@@ -787,6 +791,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0127-word-ladder](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0133-clone-graph) |
+| [0200-number-of-islands](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0200-number-of-islands) |
 | [0210-course-schedule-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
 | [0542-01-matrix](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
