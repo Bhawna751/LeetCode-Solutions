@@ -2,17 +2,20 @@ class Solution {
 public:
     int solve( vector<int> &arr){
         int ind = arr.size();
-        vector<int> dp(ind,0);
+        int prev2= 0, prev = arr[0];
+
         if(ind ==0)return arr[ind];
         if(ind<0)return 0;
-        dp[0]=arr[0];
+        
         for(int i=1;i<ind;i++){
             int pick = arr[i];
-            if(i>1)pick += dp[i-2];
-            int notpick = dp[i-1];
-            dp[i] = max(pick ,notpick);
+            if(i>1)pick += prev2;
+            int notpick = prev;
+            int cur = max(pick ,notpick);
+            prev2 = prev;
+            prev = cur;
         }
-        return dp[ind-1];
+        return prev;
     }
     int rob(vector<int>& nums) {
         int n=nums.size();
@@ -23,7 +26,7 @@ public:
             if(i!=0) arr2.push_back(nums[i]);
 
         }
-        vector<int> dp1(n,-1), dp2(n,-1);
+        
         int ans1 = solve(arr1);
         int ans2  = solve(arr2);
         return max(ans1, ans2);
