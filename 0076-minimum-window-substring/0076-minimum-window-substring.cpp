@@ -1,20 +1,28 @@
 class Solution {
 public:
-        string minWindow(string s, string t) {
-        unordered_map<char, int> letters; 
-        for(auto c : t) letters[c]++; 
-        int count = 0; 
-        int low = 0, min_length = INT_MAX, min_start = 0;     
-        for(int high = 0; high<s.length(); high++) {
-            if(letters[s[high]] > 0) count++;    
-            letters[s[high]]--; 
-            if(count == t.length()) { 
-                while(low < high && letters[s[low]] < 0) letters[s[low]]++, low++; 
-                if(min_length > high-low) min_length = high-(min_start=low)+1;
-                letters[s[low++]]++; 
-                count--; 
-            }
+    string minWindow(string s, string t) {
+        int len=1e9;
+        int ind =-1;
+        int freq[256] = {0};
+        for(char c: t) freq[c]++;
+        int cnt = 0,l=0,r=0;
+        while(r<s.size()){
+            
+            
+                if(freq[s[r]] > 0) cnt++;
+                freq[s[r]]--;
+                while(cnt == t.length()){
+                    if(r-l+1 < len){
+                        len = r-l+1;
+                        ind = l;
+                    }
+                    freq[s[l]]++;
+                    if(freq[s[l]] > 0)cnt--;
+                    l++;
+                }
+                r++;
+            
         }
-        return min_length == INT_MAX ? "" : s.substr(min_start, min_length); 
+        return (ind == -1) ? "" : s.substr(ind,len); 
     }
 };
