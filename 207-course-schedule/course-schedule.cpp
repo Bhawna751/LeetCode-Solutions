@@ -1,7 +1,7 @@
 class Solution {
 public:
-    bool cycle(vector<int> adj[], vector<int> &vis, int node){
-        if(vis[node]==1)return true;
+    bool cycle(vector<int> adj[], vector<int>&vis, int node){
+        if(vis[node] == 1)return true;
         if(vis[node]==0){
             vis[node]=1;
             for(auto it: adj[node]){
@@ -16,7 +16,7 @@ public:
         for(auto it: prerequisites){
             adj[it[1]].push_back(it[0]);
         }
-        vector<int> vis(numCourses,0);
+        vector<int> vis(numCourses, 0);
         for(int i=0;i<numCourses;i++){
             if(cycle(adj, vis, i)) return false;
         }
