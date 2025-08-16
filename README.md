@@ -376,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0890-lemonade-change](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1304-longest-happy-string) |
+| [1448-maximum-69-number](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1448-maximum-69-number) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1644-maximum-number-of-non-overlapping-substrings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1644-maximum-number-of-non-overlapping-substrings) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -466,6 +467,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0870-magic-squares-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0870-magic-squares-in-grid) |
 | [1240-stone-game-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [1448-maximum-69-number](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1448-maximum-69-number) |
 | [1642-water-bottles](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2050-count-good-numbers) |
