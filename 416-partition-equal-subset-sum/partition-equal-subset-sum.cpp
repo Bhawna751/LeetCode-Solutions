@@ -1,28 +1,25 @@
 class Solution {
 public:
+    bool solve(vector<int>&nums, int ind,int target,vector<vector<int>>&dp){
+        if(target == 0)return true;
+        if(ind == 0) return nums[0]==target;
+        if(dp[ind][target] !=-1)return dp[ind][target];
+        bool notpick = solve(nums, ind-1,target, dp);
+        bool pick = false;
+        
+        if(nums[ind] <= target) pick = solve(nums,ind-1, target-nums[ind],dp);
+        return dp[ind][target]= notpick || pick;
+        
+    }
     bool canPartition(vector<int>& nums) {
+        int total = accumulate(nums.begin(), nums.end(), 0);
         int n = nums.size();
-        int sum = 0;
-        for(int i=0;i<n;i++){
-            sum+=nums[i];
-        }
-        if(sum%2!=0) return false;
+        if(total%2 != 0)return false;
         else{
-            int k = sum/2;
-            vector<bool>prev(k+1,false);
-            prev[0]=true;
-            if(nums[0]<=k)prev[nums[0]]=true;
-            for(int i=1;i<n;i++){
-                vector<bool>cur(k+1, false);
-                for(int j=1;j<=k;j++){
-                    bool notpick = prev[j];
-                    bool pick = false;
-                    if(nums[i] <= j) pick = prev[j-nums[i]];
-                    cur[j] = notpick || pick;
-                }
-                prev = cur;
-            }
-            return prev[k];
+            int target = total/2;
+            vector<vector<int>> dp(n, vector<int>(target+1, -1));
+            return solve(nums, n-1, target,dp);
         }
+
     }
 };
