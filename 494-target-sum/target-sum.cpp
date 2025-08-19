@@ -1,26 +1,22 @@
 class Solution {
 public:
-    int helper(vector<int> &nums, int s1){
-        int n=nums.size();//n = 10
-        int dp[n+1][s1+1];
-        dp[0][0]=1;
-
-        for(int i=1;i<s1+1;i++) dp[0][i]=0;
-        for(int i=1;i<n+1;i++){
-            for(int j=0;j<s1+1;j++){
-                if(nums[i-1] > j) dp[i][j] = dp[i-1][j];
-                else dp[i][j] = dp[i-1][j] + dp[i-1][j-nums[i-1]];
-            }
+    int solve(vector<int> &nums, int target, int ind){
+        if(ind ==0){
+            if(target == 0  && nums[ind]==0) return 2;
+            if(target == 0 || nums[0] == target) return 1;
+            return 0;
         }
-        return dp[n][s1];
+        int notpick = solve(nums, target, ind-1);
+        int pick=0;
+        if(nums[ind]<=target) pick = solve(nums, target-nums[ind], ind-1);
+        return pick+notpick;
     }
     int findTargetSumWays(vector<int>& nums, int target) {
-        int sum=0;
-        // [12,25,42,49,41,15,22,34,28,31]
-        //35
-        for(int i=0;i<nums.size();i++) sum+= nums[i];//sum = 299
-        if(abs(target) >  sum || (sum-target)%2 != 0) return 0;  
-        int s1=(sum + target)/2;//s1 = 167
-        return helper(nums,s1); 
+        int n = nums.size();
+        int total = accumulate(nums.begin(), nums.end(),0);
+        if(total-target < 0 || (total-target)%2==1)return 0;
+        int k = (total - target)/2;
+        return solve(nums, k, n-1);
+
     }
 };
