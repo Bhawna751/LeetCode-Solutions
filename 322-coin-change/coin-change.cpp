@@ -1,33 +1,23 @@
 class Solution {
 public:
+    int solve(vector<int>& coins, int amount, int ind,vector<vector<int>>&dp){
+        if(ind==0){
+            if(amount%coins[0]==0)return amount/coins[0];
+            else return 1e9;
+        }
+        if(dp[ind][amount]!=-1)return dp[ind][amount];
+
+        int notpick = solve(coins, amount,ind-1,dp);
+        int pick = 1e9;
+        if(coins[ind] <= amount) pick = 1+solve(coins, amount-coins[ind], ind,dp);
+        return dp[ind][amount]  =min(notpick,pick);
+    }
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
-
-        vector<int> prev(amount+1,0);
-        vector<int> cur(amount+1,0);
-        for(int i=0;i<=amount;i++){
-            if(i % coins[0]==0){
-                prev[i]=i/coins[0];
-            }
-            else{
-                prev[i]=1e9;
-            }
-        }
-        for(int ind = 1;ind<n;ind++){
-            for(int amt = 0; amt<=amount;amt++){
-                int notpick = prev[amt];
-                int pick = 1e9;
-                if(coins[ind]<=amt)pick = 1 + cur[amt - coins[ind]];
-                cur[amt] = min(notpick,pick);
-            }
-            prev = cur;
-        }
-        int ans = prev[amount];
-        if(ans>=1e9){
-            return -1;
-        }
+        vector<vector<int>> dp(n, vector<int>(amount+1, -1));
+        int ans = solve(coins,amount,n-1,dp);
+        if(ans >= 1e9)return -1;
         return ans;
-
 
     }
 };
