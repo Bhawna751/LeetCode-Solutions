@@ -1,25 +1,18 @@
 class Solution {
 public:
-    
-    int solve(string &s, string &t, vector<vector<int>>&dp, int i, int j){
-        if(j < 0)return 1;
-        if(i<0) return 0;
-        if(dp[i][j]!=-1)return dp[i][j];
-        int ans=0;
-        if(s[i] == t[j]){
-            int pick = solve(s,t,dp,i-1,j-1);
-            int notpick = solve(s,t,dp,i-1,j);
-            ans = pick + notpick;
-        }
-        else{
-            ans = solve(s,t,dp,i-1,j);
-        }
-        dp[i][j] = ans;
-        return ans;
-    }
+    const int mod = 1e9+7;
     int numDistinct(string s, string t) {
         int n = s.size(), m=t.size();
-        vector<vector<int>> dp(n,vector<int>(m,-1));
-        return solve(s,t,dp,n-1,m-1);
+        
+        vector<int> prev(m+1, 0);
+        prev[0] = 1;
+        
+        for(int i=1;i<=n;i++){
+            for(int j=m;j>=1;j--){
+                if(s[i-1] == t[j-1]) prev[j] = (prev[j-1] + prev[j]) % mod;
+            }
+           
+        }
+        return prev[m];
     }
 };
