@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3647-zero-array-transformation-iii) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
+| [3748-sort-matrix-by-diagonals](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3748-sort-matrix-by-diagonals) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Hash Table
 |  |
@@ -366,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3647-zero-array-transformation-iii) |
+| [3748-sort-matrix-by-diagonals](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3748-sort-matrix-by-diagonals) |
 ## Greedy
 |  |
 | ------- |
@@ -685,6 +687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2472-build-a-matrix-with-conditions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3748-sort-matrix-by-diagonals](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3748-sort-matrix-by-diagonals) |
 ## Topological Sort
 |  |
 | ------- |
