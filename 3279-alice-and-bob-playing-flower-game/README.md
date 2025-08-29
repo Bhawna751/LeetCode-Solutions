@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/alice-and-bob-playing-flower-game">3279. Alice and Bob Playing Flower Game</a></h2><h3>Medium</h3><hr><p>Alice and Bob are playing a turn-based game on a field, with two lanes of flowers between them. There are <code>x</code> flowers in the first lane between Alice and Bob, and <code>y</code> flowers in the second lane between them.</p>
+<h2><a href="https://leetcode.com/problems/alice-and-bob-playing-flower-game">Alice and Bob Playing Flower Game</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Alice and Bob are playing a turn-based game on a field, with two lanes of flowers between them. There are <code>x</code> flowers in the first lane between Alice and Bob, and <code>y</code> flowers in the second lane between them.</p>
 
 <p><img alt="" src="https://assets.leetcode.com/uploads/2025/08/27/3021.png" style="width: 300px; height: 150px;" /></p>
 
