@@ -2,8 +2,8 @@ class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
         int vis1[9][9] = {0},vis2[9][9] = {0},vis3[9][9] = {0};
-        for(int i=0;i<board.size();i++){
-            for(int j=0;j<board[i].size();j++){
+        for(int i=0;i<9;i++){
+            for(int j=0;j<9;j++){
                 if(board[i][j] != '.'){
                     int it = board[i][j] - '0' -1;
                     int k = i/3 * 3+j /3;
