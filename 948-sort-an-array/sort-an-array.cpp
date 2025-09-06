@@ -1,44 +1,41 @@
 class Solution {
 public:
-    void bubble(vector<int> &nums){
-        for(int i=nums.size()-1;i>=0;i--){
-            for(int j=0;j<i;j++){
-                if(nums[j] > nums[j+1]) swap(nums[j],nums[j+1]);
+    void merge(vector<int>&nums, int l, int mid, int r){
+        int i=l, j=mid+1;
+        vector<int>temp;
+        while(i<=mid && j<=r){
+            if(nums[i] <= nums[j]){
+                temp.push_back(nums[i]);
+                i++;
+            }
+            else{
+                temp.push_back(nums[j]);
+                j++;
             }
         }
-    }
-    void insertion(vector<int> &nums){
-        if(nums.size()==0 || nums.size() == 1)return;
-        for(int i=1;i<nums.size();i++){
-            int temp = nums[i];
-            int j = i-1;
-            while(j>=0 && nums[j] > temp){
-                nums[j+1] = nums[j];
-                j--;
-            }
-            nums[j+1] = temp;
+        while(i<=mid){
+            temp.push_back(nums[i]);
+            i++;
+
+        }
+        while(j<=r){
+            temp.push_back(nums[j]);
+            j++;
+        }
+        for(int it=l;it<=r;it++){
+            nums[it] = temp[it-l];
         }
     }
-    void merge(vector<int> &nums, int l, int r, int m){
-        vector<int> temp(r - l + 1);
-        int i = l, j = m + 1, k = 0;
-        while(i<=m && j<=r){
-            if(nums[i] <= nums[j]) temp[k++] = nums[i++];
-            else temp[k++] = nums[j++];
-        }
-        while(i<=m) temp[k++] = nums[i++];
-        while(j<=r) temp[k++] = nums[j++];
-        for(i = 0;i<k;i++) nums[l+i] = temp[i];
-    }
-    void msort(vector<int>&nums, int l,int r){
-        if(l >= r)return;
-        int m = l + (r-l)/2;
-        msort(nums,l,m);
-        msort(nums, m+1, r);
-        merge(nums, l,r,m);
+    void helper(vector<int>&nums, int l, int r){
+        if(l>=r)return;
+        int mid=(l+r)/2;
+        helper(nums,l,mid);
+        helper(nums,mid+1,r);
+        merge(nums,l,mid,r);
     }
     vector<int> sortArray(vector<int>& nums) {
-        msort(nums, 0, nums.size()-1);
+        int n=nums.size();
+        helper(nums,0,n-1);
         return nums;
     }
 };
