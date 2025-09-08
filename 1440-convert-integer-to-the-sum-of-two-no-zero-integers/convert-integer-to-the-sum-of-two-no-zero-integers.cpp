@@ -10,7 +10,7 @@ public:
                 b += cnt*9;
                 n--;
             }else{
-                a += cnt*1;
+                a += cnt;
                 b += cnt*(digit-1);
             }
             cnt = cnt * 10;
