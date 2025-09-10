@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1798-max-number-of-k-sum-pairs](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1803-average-waiting-time](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1803-average-waiting-time) |
 | [1813-maximum-erasure-value](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1813-maximum-erasure-value) |
+| [1834-minimum-number-of-people-to-teach](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1923-sentence-similarity-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1923-sentence-similarity-iii) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1813-maximum-erasure-value](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1813-maximum-erasure-value) |
+| [1834-minimum-number-of-people-to-teach](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -384,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1644-maximum-number-of-non-overlapping-substrings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1644-maximum-number-of-non-overlapping-substrings) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1834-minimum-number-of-people-to-teach](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
