@@ -1,40 +1,33 @@
-
 class Solution {
-
 public:
     int swimInWater(vector<vector<int>>& grid) {
-        int n=grid.size();
-        int ans = max(grid[0][0],grid[n-1][n-1]);
-        priority_queue<vector<int>,vector<vector<int>>,greater<vector<int>>> pq;
-        vector<vector<int>> vis(n,vector<int>(n,0));
-        vis[0][0]=1;
-        int dr[] = {-1,0,1,0};
-        int dc[] = {0,-1,0,1};
-        pq.push({ans,0,0});
+        int n = grid.size();
+        
+        priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> minHeap;
+        vector<vector<int>> visited(n,vector<int>(n,0));
+
+        int dirx[4] = {0,1,0,-1};
+        int diry[4] = {1,0,-1,0};
+
+        minHeap.push({grid[0][0], 0,0});
+        visited[0][0]=1;
+
+        while(!minHeap.empty()){
+            auto curr = minHeap.top();
+            minHeap.pop();
+            int elevation = curr[0];
+            int r = curr[1];
+            int c = curr[2];
+            if(r==n-1 && c==n-1)return elevation;
+            for(int i=0;i<4;i++){
                 
-        while(!pq.empty()){
-            auto it = pq.top();
-            pq.pop();
-            ans = max(ans,it[0]);
-            queue<pair<int,int>> q;
-            q.push({it[1],it[2]});
-            while(!q.empty()){
-                auto iter = q.front();
-                q.pop();
-                if(iter.first == n-1 && iter.second == n-1)return ans;
-                for(int i=0;i<4;i++){
-                    int nr = iter.first + dr[i];
-                    int nc = iter.second + dc[i];
-                    if(nr>=0 && nr< n && nc>=0 && nc<n && vis[nr][nc]==0){
-                        vis[nr][nc]=1;
-                        if(grid[nr][nc]<= ans){
-                            q.push({nr,nc});
-                        }
-                        else{
-                            pq.push({grid[nr][nc],nr,nc});
-                        }
+                    int nr = r + dirx[i];
+                    int nc = c + diry[i];
+                    if (nr >= 0 && nc >= 0 && nr < n && nc < n && !visited[nr][nc]) {
+                        visited[nr][nc] = 1;
+                        minHeap.push({max(elevation, grid[nr][nc]), nr, nc});
                     }
-                }
+                
             }
         }
         return -1;
