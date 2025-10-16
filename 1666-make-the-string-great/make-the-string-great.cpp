@@ -1,11 +1,13 @@
 class Solution {
 public:
     string makeGood(string s) {
-        string ans;
-        for(char c:s){
-            if(!ans.empty() && (ans.back() ^ c) == 32) ans.pop_back();
-            else ans.push_back(c);
+        int ind=0;
+        while(ind!=s.size()){
+            ind = s.size();
+            for(int i=0;i+1<s.size();i++){
+                if(abs(s[i]-s[i+1]) == 32) s = s.substr(0,i) + s.substr(i+2);
+            }
         }
-        return ans;
+        return s;
     }
 };
