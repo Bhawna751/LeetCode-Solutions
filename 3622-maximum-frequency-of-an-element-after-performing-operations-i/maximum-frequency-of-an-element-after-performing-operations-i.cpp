@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxFrequency(vector<int>& nums, int k, int numOperations) {
-        int maxi = *max_element(nums.begin(), nums.end()) + k + 2;
+        int maxi = *max_element(nums.begin(), nums.end()) +1;
         int *cnt = new int[maxi]();
         for(int it:nums) cnt[it]++;
         for(int i=1;i<maxi;i++){
