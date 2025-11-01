@@ -11,19 +11,16 @@
 class Solution {
 public:
     ListNode* modifiedList(vector<int>& nums, ListNode* head) {
-        unordered_set<int> st(nums.begin(),nums.end());
-        ListNode newHead(0);
-        newHead.next = head;
-        ListNode *cur = &newHead;
-        while(cur->next != nullptr){
-            if(st.count(cur->next->val)){
-                ListNode *temp = cur->next;
-                cur->next = cur->next->next;
-                delete temp;
-            } else{
-                cur = cur->next;
-            }
+        bitset<100001> hasN=0;
+        for(int x: nums) hasN[x]=1;
+        ListNode dummy(0, head);
+        ListNode* prev=&dummy;
+        for(ListNode* curr=head; curr; curr=curr->next){
+            if (hasN[curr->val]) 
+                prev->next=curr->next;
+            else 
+                prev=prev->next;
         }
-        return newHead.next;
+        return dummy.next;
     }
 };
