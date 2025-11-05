@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3647-zero-array-transformation-iii) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3455-minimum-length-of-string-after-operations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3548-find-the-count-of-good-integers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
+| [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Two Pointers
@@ -732,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3647-zero-array-transformation-iii) |
 ## Merge Sort
@@ -887,6 +890,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 ## Strongly Connected Component
 |  |
 | ------- |
