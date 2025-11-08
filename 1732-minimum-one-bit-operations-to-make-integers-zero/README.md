@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero">1732. Minimum One Bit Operations to Make Integers Zero</a></h2><h3>Hard</h3><hr><p>Given an integer <code>n</code>, you must transform it into <code>0</code> using the following operations any number of times:</p>
+<h2><a href="https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero">Minimum One Bit Operations to Make Integers Zero</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>Given an integer <code>n</code>, you must transform it into <code>0</code> using the following operations any number of times:</p>
 
 <ul>
 	<li>Change the rightmost (<code>0<sup>th</sup></code>) bit in the binary representation of <code>n</code>.</li>
