@@ -5,11 +5,9 @@ public:
         int l=0,r=n-1;
         vector<int>ans;
         vector<vector<int>> ind;
-        for(int i=0;i<n;i++){
-            ind.push_back({nums[i],i});
-        }
+        for(int i=0;i<n;i++) ind.push_back({nums[i],i});
         sort(ind.begin(), ind.end(), [](const vector<int>&a, const vector<int>&b){
-            return a[0] < b[0];
+            return a[0]<b[0];
         });
         while(l<r){
             int sum = ind[l][0] + ind[r][0];
