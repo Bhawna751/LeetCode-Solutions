@@ -628,6 +628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2306-create-binary-tree-from-descriptions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2384-root-equals-sum-of-children](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2384-root-equals-sum-of-children) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+| [2872-maximum-number-of-k-divisible-components](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Depth-First Search
 |  |
@@ -656,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
+| [2872-maximum-number-of-k-divisible-components](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Binary Tree
 |  |
