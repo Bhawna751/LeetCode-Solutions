@@ -1,44 +1,72 @@
 class Solution {
-private:
-    struct TupleHash {
-        template <typename... T>
-        std::size_t operator()(const std::tuple<T...>& t) const {
-            return apply([](const auto&... args) {
-                std::size_t seed = 0;
-                ((seed ^= std::hash<std::decay_t<decltype(args)>>{}(args) + 
-                        0x9e3779b9 + (seed << 6) + (seed >> 2)), ...);
-                return seed;
-            }, t);
-        }
-    };
-
 public:
     int countTrapezoids(vector<vector<int>>& points) {
-        unordered_map<tuple<int, int>, int, TupleHash> lookup_slope;
-        unordered_map<tuple<int, int, int>, int, TupleHash> lookup_line;
-        unordered_map<tuple<int, int, int>, int, TupleHash> lookup_slope_length;
-        unordered_map<tuple<int, int, int, int>, int, TupleHash> lookup_line_length;
+        int n = points.size();
+        unordered_map<float, vector<float>> slopeIntercpts;
+        unordered_map<int, vector<float>> midPointMap;
+        int result = 0;
 
-        int result = 0, same = 0;
+        for(int i = 0; i < n; i++) {
+            for(int j = i+1; j < n; j++) {
+                int x1 = points[i][0];
+                int y1 = points[i][1];
 
-        for (int i = 0; i < points.size(); ++i) {
-            const int x1 = points[i][0], y1 = points[i][1];
-            for (int j = 0; j < i; ++j) {
-                const int x2 = points[j][0], y2 = points[j][1];
-                const int dx = x2 - x1, dy = y2 - y1;
-                const auto g = gcd(dx, dy);
-                int a = dx / g, b = dy / g;
-                if (a < 0 || (a == 0 && b < 0)) {
-                    a = -a;
-                    b = -b;
+                int x2 = points[j][0];
+                int y2 = points[j][1];
+
+                int dx = x2-x1;
+                int dy = y2-y1;
+
+                float slope, intercept;
+                if(x2 == x1) { 
+                    slope     = 1e9+7; 
+                    intercept = x1;
+                } else {
+                    slope = (float)(y2-y1)/(x2-x1);
+                    intercept = (float) (y1*dx - x1*dy) / dx;
                 }
-                const int c = b * x1 - a * y1;
-                result += lookup_slope[tuple(a, b)]++ - lookup_line[tuple(a, b, c)]++;
-                const int l = dx * dx + dy * dy;
-                same += lookup_slope_length[tuple(a, b, l)]++ - lookup_line_length[tuple(a, b, c, l)]++;
+
+                int midPointKey = (x1+x2)*10000 + (y1+y2);
+
+                slopeIntercpts[slope].push_back(intercept);
+                midPointMap[midPointKey].push_back(slope);
             }
         }
 
-        return result - same / 2;
+        for(auto &it : slopeIntercpts) {
+            if(it.second.size() <= 1)
+                continue;
+
+            map<float, int> mp; 
+            for(float intercept : it.second) {
+                mp[intercept]++;
+            }
+
+            int prevHorizLines = 0;
+            for(auto &it : mp) {
+                int count = it.second;
+                result += count * prevHorizLines; 
+                prevHorizLines += count;
+            }
+        }
+
+        for(auto &it : midPointMap) {
+            if(it.second.size() <= 1)
+                continue;
+                
+            map<float, int> mp;
+            for(float slope : it.second) {
+                mp[slope]++;
+            }
+
+            int prevHorizLines = 0;
+            for(auto &it : mp) {
+                int count = it.second;
+                result -= count * prevHorizLines;
+                prevHorizLines += count;
+            }
+        }
+
+        return result;
     }
 };
