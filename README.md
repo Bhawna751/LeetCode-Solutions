@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3647-zero-array-transformation-iii) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3548-find-the-count-of-good-integers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Two Pointers
@@ -490,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3548-find-the-count-of-good-integers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3625-count-number-of-trapezoids-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
@@ -1045,4 +1048,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0584-find-customer-referee](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0584-find-customer-referee) |
+## Geometry
+|  |
+| ------- |
+| [3625-count-number-of-trapezoids-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 <!---LeetCode Topics End-->
