@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -493,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3201-distribute-candies-among-children-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3201-distribute-candies-among-children-ii) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3548-find-the-count-of-good-integers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
@@ -1017,6 +1019,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Data Stream
 |  |
 | ------- |
@@ -1047,6 +1050,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3201-distribute-candies-among-children-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3774-check-if-digits-are-equal-in-string-after-operations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3774-check-if-digits-are-equal-in-string-after-operations-ii) |
 ## Database
