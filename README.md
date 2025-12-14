@@ -487,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1925-count-square-sum-triples](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1925-count-square-sum-triples) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2050-count-good-numbers) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2155-find-missing-observations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2155-find-missing-observations) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2645-pass-the-pillow](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2645-pass-the-pillow) |
@@ -572,6 +573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2211-count-collisions-on-a-road](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2211-count-collisions-on-a-road) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -818,6 +820,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
