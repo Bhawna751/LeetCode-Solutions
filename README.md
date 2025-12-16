@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
@@ -641,6 +642,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -670,6 +672,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2793-count-the-number-of-complete-components](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Binary Tree
 |  |
 | ------- |
@@ -829,6 +832,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 ## Shortest Path
 |  |
