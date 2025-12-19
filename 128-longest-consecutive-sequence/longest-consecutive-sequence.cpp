@@ -8,14 +8,14 @@ public:
         for(int i=0;i<n;i++){
             st.insert(nums[i]);
         }
-        for(auto it: st){
+        for(int it:st){
             if(st.find(it-1)==st.end()){
-                int x = it;
+                int x= it;
                 int cnt = 1;
                 while(st.find(x+1)!=st.end()){
                     x++; cnt++;
                 }
-                ans = max(ans,cnt);
+                ans = max(ans, cnt);
             }
         }
         return ans;
