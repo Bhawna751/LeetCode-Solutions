@@ -1,25 +1,32 @@
 class Solution {
 public:
-    int helper(int ind,int cnt, vector<vector<int>> &dp, vector<vector<int>>&events){
-        if(ind >= events.size() || cnt == 2)return 0;
-        if(dp[ind][cnt] == -1){
-            int end = events[ind][1];
-            int l = ind+1, r = events.size()-1;
-            while(l<r){
-                int mid = (l+r)/2;
-                if(events[mid][0] > end) r=mid;
-                else l=mid+1;
-            }
-            int pick = events[ind][2] + (l<events.size() && events[l][0] > end ? helper(l,cnt+1,dp,events) : 0);
-            int notpick = helper(ind+1,cnt,dp,events);
-            dp[ind][cnt] = max(pick,notpick);
-        }
-        return dp[ind][cnt];
-    }
     int maxTwoEvents(vector<vector<int>>& events) {
-        int n=events.size();
-        vector<vector<int>> dp(n,vector<int>(3,-1));
-        sort(events.begin(), events.end());
-        return helper(0,0,dp,events);
+        int n = events.size();
+        int sum =0;
+        
+        sort(events.begin(), events.end());//1,3,2   2,4,3    4,5,2
+        vector<int> suffix(n,-1);// 3 3 2
+        suffix[n-1] = events[n-1][2];
+
+        for(int i=n-2;i>=0;i--){
+            suffix[i] = max(suffix[i+1], events[i][2]);
+        }
+
+        for(int i=0;i<n;i++){//i = 0
+            int l = i+1;//l = 2
+            int r = n-1;//r = 1
+            int ind = -1;//ind= 2
+            while(l<=r){
+                int mid = (l+r)/2;//mid = 2
+                if(events[mid][0] > events[i][1]){// 4 > 3
+                    ind = mid;
+                    r = mid-1;
+                }
+                else l= mid+1;
+            }
+            if(ind == -1) sum = max(sum, events[i][2]);
+            else sum = max(sum, events[i][2] + suffix[ind]);// sum = 2+2
+        }
+        return sum;
     }
 };
