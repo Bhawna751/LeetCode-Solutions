@@ -645,6 +645,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2384-root-equals-sum-of-children](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2384-root-equals-sum-of-children) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
+| [3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Depth-First Search
@@ -676,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
+| [3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Binary Tree
@@ -876,6 +878,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
+| [3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Binary Indexed Tree
 |  |
