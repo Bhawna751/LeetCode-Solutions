@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
+| [1857-largest-color-value-in-a-directed-graph](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2472-build-a-matrix-with-conditions) |
@@ -252,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1798-max-number-of-k-sum-pairs](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1813-maximum-erasure-value](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1834-minimum-number-of-people-to-teach) |
+| [1857-largest-color-value-in-a-directed-graph](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -734,6 +736,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
+| [1857-largest-color-value-in-a-directed-graph](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Divide and Conquer
 |  |
@@ -787,6 +790,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0948-sort-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1857-largest-color-value-in-a-directed-graph](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -829,6 +833,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1628-count-submatrices-with-all-ones](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1857-largest-color-value-in-a-directed-graph](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
@@ -991,6 +996,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0241-different-ways-to-add-parentheses) |
+| [1857-largest-color-value-in-a-directed-graph](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 ## Trie
