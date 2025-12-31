@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0999-regions-cut-by-slashes) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2035-count-sub-islands](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2793-count-the-number-of-complete-components](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1923-sentence-similarity-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1923-sentence-similarity-iii) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -330,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2047-find-a-peak-element-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2047-find-a-peak-element-ii) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -666,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1484-linked-list-in-binary-tree](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2035-count-sub-islands](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2438-find-closest-node-to-given-two-nodes) |
@@ -712,6 +716,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1628-count-submatrices-with-all-ones](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2035-count-sub-islands](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2047-find-a-peak-element-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2047-find-a-peak-element-ii) |
@@ -863,6 +868,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2035-count-sub-islands](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2171-second-minimum-time-to-reach-destination) |
