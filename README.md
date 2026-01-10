@@ -566,6 +566,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0592-fraction-addition-and-subtraction](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0592-fraction-addition-and-subtraction) |
 | [0664-strange-printer](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0664-strange-printer) |
 | [0686-repeated-string-match](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0686-repeated-string-match) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0721-accounts-merge](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0726-number-of-atoms) |
 | [0868-push-dominoes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0868-push-dominoes) |
@@ -834,6 +835,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0542-01-matrix) |
 | [0650-2-keys-keyboard](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0664-strange-printer) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0868-push-dominoes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0868-push-dominoes) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0934-bitwise-ors-of-subarrays) |
