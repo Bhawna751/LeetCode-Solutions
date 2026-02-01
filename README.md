@@ -190,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2846-robot-collisions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2846-robot-collisions) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2943-maximize-area-of-square-hole-in-grid) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3068-find-the-maximum-sum-of-node-values](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3068-find-the-maximum-sum-of-node-values) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2846-robot-collisions](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2846-robot-collisions) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2943-maximize-area-of-square-hole-in-grid) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3068-find-the-maximum-sum-of-node-values](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3068-find-the-maximum-sum-of-node-values) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3647-zero-array-transformation-iii) |
@@ -1095,6 +1097,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1925-count-square-sum-triples](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1925-count-square-sum-triples) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3201-distribute-candies-among-children-ii) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3548-find-the-count-of-good-integers](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3548-find-the-count-of-good-integers) |
