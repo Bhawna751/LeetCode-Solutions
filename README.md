@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3640-trionic-array-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3640-trionic-array-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3647-zero-array-transformation-iii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
@@ -879,6 +880,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3640-trionic-array-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3640-trionic-array-ii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3651-minimum-cost-path-with-teleportations) |
 ## Shortest Path
 |  |
