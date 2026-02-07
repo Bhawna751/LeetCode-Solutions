@@ -1,21 +1,21 @@
 class Solution {
 public:
     int minimumDeletions(string s) {
-        int n=s.length();
-        vector<int> cnta(n,0);
-        vector<int> cntb(n,0);
-        int b = 0,a=0;
+        int n = s.size();
+        vector<int> freqA(n,0);
+        vector<int> freqB(n,0);
+        int a=0,b=0;
         for(int i=0;i<n;i++){
-            cntb[i] = b;
-            if(s[i]=='b') b++; 
+            freqB[i] = b;
+            if(s[i]=='b')b++;
         }
         for(int i=n-1;i>=0;i--){
-            cnta[i] = a;
-            if(s[i]=='a') a++; 
+            freqA[i] = a;
+            if(s[i]=='a')a++;
         }
         int op = n;
         for(int i=0;i<n;i++){
-            op = min(op,cnta[i] + cntb[i]);
+            op = min(op, freqA[i] + freqB[i]);
         }
         return op;
     }
