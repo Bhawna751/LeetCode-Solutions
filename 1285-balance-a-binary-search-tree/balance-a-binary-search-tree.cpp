@@ -11,23 +11,22 @@
  */
 class Solution {
 public:
-    void inorder(TreeNode* root, vector<int> &in){
-        if(!root) return ;
+    void inorder(TreeNode* root, vector<int>&in){
+        if(!root)return ;
         inorder(root->left,in);
-        in.push_back(root->val);//1 2 3 4
+        in.push_back(root->val);
         inorder(root->right,in);
-
     }
-    TreeNode* balance(vector<int>&in, int root, int last){
-        if(root>last)return nullptr;//root=0 last=0
-        int mid= root + (last-root)/2;//1
-        TreeNode* left= balance(in,root,mid-1);//(0,0) 
-        TreeNode* right= balance(in,mid+1,last);//(1,0)
-        return new TreeNode(in[mid],left,right);//(2,)
+    TreeNode *balanced(vector<int>&in, int root, int last){
+        if(root>last)return nullptr;
+        int mid = (root+last)/2;
+        TreeNode *l= balanced(in , root, mid-1);
+        TreeNode *r = balanced(in, mid+1, last);
+        return new TreeNode(in[mid], l,r);
     }
     TreeNode* balanceBST(TreeNode* root) {
         vector<int> in;
         inorder(root,in);
-        return balance(in,0,in.size()-1);
+        return balanced(in,0,in.size()-1);
     }
 };
