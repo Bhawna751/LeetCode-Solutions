@@ -1,16 +1,19 @@
 class Solution {
 public:
     string largestNumber(vector<int>& nums) {
-        vector<string>ans;
-        for(int num : nums){
-            ans.push_back(to_string(num));
+        vector<pair<string,string>> arr;//(333333333,3)(30303030,30)(34343434,34)(555555555,5)(999999999,9)
+        for(int it:nums){
+            string s=to_string(it);
+            string key=s;
+            while(key.size()<10)key+=s;
+            arr.push_back({key,s});
         }
-        sort(ans.begin(), ans.end(), [] (string &a, string &b){ return a+b > b+a;});
-        if(ans[0] == "0") return "0";
-        string largest;
-        for(auto it: ans){
-            largest += it;
+        sort(arr.rbegin(), arr.rend());//(999999999,9)()
+        string ans;
+        for(auto &it:arr){
+            ans += it.second;//ans += 9534330
         }
-        return largest;
+        if(ans[0]=='0')return "0";
+        return ans;
     }
 };
