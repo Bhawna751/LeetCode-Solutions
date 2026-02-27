@@ -528,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
@@ -626,6 +627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3455-minimum-length-of-string-after-operations](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 | [3714-longest-balanced-substring-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3714-longest-balanced-substring-ii) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3774-check-if-digits-are-equal-in-string-after-operations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3774-check-if-digits-are-equal-in-string-after-operations-ii) |
@@ -930,6 +932,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2793-count-the-number-of-complete-components](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2793-count-the-number-of-complete-components) |
 | [3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -1090,6 +1093,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0729-my-calendar-i](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0731-my-calendar-ii) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Brainteaser
 |  |
 | ------- |
@@ -1138,4 +1142,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3625-count-number-of-trapezoids-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
+## Union-Find
+|  |
+| ------- |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 <!---LeetCode Topics End-->
