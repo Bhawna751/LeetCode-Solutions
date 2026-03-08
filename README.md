@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-maximum-ascending-subarray-sum](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1970-last-day-where-you-can-still-cross) |
+| [1980-find-unique-binary-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1980-find-unique-binary-string) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2035-count-sub-islands) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1813-maximum-erasure-value](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1857-largest-color-value-in-a-directed-graph) |
+| [1980-find-unique-binary-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1980-find-unique-binary-string) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -604,6 +606,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1923-sentence-similarity-iii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1923-sentence-similarity-iii) |
+| [1980-find-unique-binary-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1980-find-unique-binary-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2079-delete-duplicate-folders-in-system) |
@@ -1116,6 +1119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0090-subsets-ii) |
+| [1980-find-unique-binary-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1980-find-unique-binary-string) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Enumeration
 |  |
