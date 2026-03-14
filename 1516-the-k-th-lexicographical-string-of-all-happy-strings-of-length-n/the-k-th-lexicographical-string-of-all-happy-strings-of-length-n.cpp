@@ -1,21 +1,21 @@
 class Solution {
 public:
-    void generate(int n, string cur, vector<string>&ans){
-        if(cur.size() == n){
-            ans.push_back(cur);
-            return;
+    void generate(int n , vector<string>& happy, string cur){
+        if(cur.size()==n){
+            happy.push_back(cur);
+            return ;
         }
         for(char ch = 'a'; ch <= 'c'; ch++){
-            if(cur.size()>0 && cur.back()==ch) continue;
-            generate(n,cur+ch, ans);
+            if(cur.size()>0 && cur.back()==ch)continue;
+            generate(n, happy, cur+ch);
         }
     }
     string getHappyString(int n, int k) {
         string cur="";
-        vector<string> ans;
-        generate(n, cur,ans);
-        if(ans.size()<k)return "";
-        sort(ans.begin(),ans.end());
-        return ans[k-1];
+        vector<string> happy;
+        generate(n,happy, cur);
+        if(happy.size()<k) return "";
+        sort(happy.begin(), happy.end());
+        return happy[k-1];
     }
 };
