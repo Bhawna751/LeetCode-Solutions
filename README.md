@@ -1155,4 +1155,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
+## Graph Theory
+|  |
+| ------- |
+| [0210-course-schedule-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/0210-course-schedule-ii) |
 <!---LeetCode Topics End-->
