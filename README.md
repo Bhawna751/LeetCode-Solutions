@@ -223,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3748-sort-matrix-by-diagonals](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3748-sort-matrix-by-diagonals) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Hash Table
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3625-count-number-of-trapezoids-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3714-longest-balanced-substring-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3714-longest-balanced-substring-ii) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Two Pointers
 |  |
