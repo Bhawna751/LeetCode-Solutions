@@ -3,7 +3,7 @@ public:
     vector<vector<int>> mat;
     pair<int,int> pos[26];
     vector<vector<vector<int>>> dp;
-    string w;
+    string s;
     int n;
 
     void helper(){
@@ -26,13 +26,13 @@ public:
 
         if(dp[ind][f1+1][f2+1]!=-1) return dp[ind][f1+1][f2+1];
         int op1 = 0,op2=0;
-        if(f1!=-1) op1 = mat[f1][w[ind]-'A'];
-        if(f2!=-1) op2 = mat[f2][w[ind]-'A'];
-        return dp[ind][f1+1][f2+1] = min(solve(ind+1,w[ind]-'A',f2)+op1,solve(ind+1,f1,w[ind]-'A')+op2);
+        if(f1!=-1) op1 = mat[f1][s[ind]-'A'];
+        if(f2!=-1) op2 = mat[f2][s[ind]-'A'];
+        return dp[ind][f1+1][f2+1] = min(solve(ind+1,s[ind]-'A',f2)+op1,solve(ind+1,f1,s[ind]-'A')+op2);
     }
     int minimumDistance(string word) {
         helper();
-        w=word;
+        s=word;
         n = word.size();
         dp.assign(n,vector<vector<int>>(27, vector<int>(27,-1)));
         return solve(0,-1,-1);
