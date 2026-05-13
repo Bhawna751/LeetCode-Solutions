@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1628-count-submatrices-with-all-ones](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1628-count-submatrices-with-all-ones) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1694-make-sum-divisible-by-p](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -271,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1694-make-sum-divisible-by-p](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1786-count-the-number-of-consistent-strings) |
@@ -1024,6 +1026,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1240-stone-game-ii](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1240-stone-game-ii) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1694-make-sum-divisible-by-p](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
 | [1895-largest-magic-square](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/1895-largest-magic-square) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Bhawna751/LeetCode-Solutions/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
